@@ -60,6 +60,12 @@ const HomePage = () => {
 
   const sendAudioToServer = async (audioBlob) => {
     try {
+      if (!audioBlob) {
+        throw new Error('No audio data available');
+      }
+
+      console.log('Audio blob size:', audioBlob.size);
+
       const formData = new FormData();
       formData.append('audio', audioBlob, 'order.webm');
 
@@ -67,19 +73,28 @@ const HomePage = () => {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
+        timeout: 30000,
+        onUploadProgress: (progressEvent) => {
+          const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
+          console.log('Upload progress:', percentCompleted);
+        }
       });
 
-      console.log('Audio uploaded:', response.data);
+      console.log('Upload successful:', response.data);
       
-      // For testing, simulate order processing
-      const mockProcessedOrder = [
-        { name: "Espresso", price: 25000, quantity: 2 },
-        { name: "Latte", price: 35000, quantity: 1 }
-      ];
-      setProcessedOrders(mockProcessedOrder);
-      setShowConfirmation(true);
+      // Process response
+      if (response.data.path) {
+        setProcessedOrders([]); // Clear any previous orders
+        setShowConfirmation(true);
+      }
+
     } catch (error) {
-      console.error('Error uploading audio:', error);
+      console.error('Upload error:', {
+        message: error.message,
+        response: error.response?.data,
+        status: error.response?.status
+      });
+      alert('Failed to upload audio. Please try again.');
     }
   };
 

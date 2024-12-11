@@ -37,25 +37,18 @@ const SettingsPage = () => {
 
     try {
       const formData = new FormData();
-      
-      // Validate required fields
-      if (!newMenu.name || !newMenu.price) {
-        throw new Error('Name and price are required');
+      formData.append('name', newMenu.name);
+      formData.append('price', newMenu.price);
+      formData.append('description', newMenu.description);
+      formData.append('category', newMenu.category);
+      if (newMenu.image) {
+          formData.append('image', newMenu.image);
       }
 
-      // Append all fields to FormData
-      Object.keys(newMenu).forEach(key => {
-        if (key === 'image' && newMenu[key]) {
-          formData.append('image', newMenu[key]);
-        } else if (key !== 'image') {
-          formData.append(key, newMenu[key]);
-        }
-      });
-
       await axios.post('/api/menu', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data'
-        }
+          headers: {
+              'Content-Type': 'multipart/form-data'
+          }
       });
 
       // Reset form

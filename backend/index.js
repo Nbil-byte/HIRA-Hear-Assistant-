@@ -7,6 +7,7 @@ import menuRoutes from './src/routes/menu.js';
 import audioRoutes from './src/routes/audio.js';
 import ordersRoutes from './src/routes/orders.js';
 import statsRoutes from './src/routes/stats.js';
+import { verifyBucketAccess } from './src/config/storage.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -35,12 +36,18 @@ app.use('/', ordersRoutes);
 app.use('/', statsRoutes);
 
 const startServer = async () => {
-  await initializeDB();
-  
-  const PORT = process.env.PORT || 3000;
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-  });
-}
+  try {
+    await initializeDB();
+    await verifyBucketAccess(); // Add this line
+    
+    const PORT = process.env.PORT || 3000;
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+  } catch (error) {
+    console.error('Server startup failed:', error);
+    process.exit(1);
+  }
+};
 
 startServer().catch(console.error);
