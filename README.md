@@ -77,5 +77,3 @@ README.md                    # Documentation
 Run the `js.html` file in a browser to test the model.
 
 --- 
-
-Feel free to let me know if you'd like to modify or add more details!
