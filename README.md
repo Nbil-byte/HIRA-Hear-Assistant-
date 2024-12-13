@@ -2,8 +2,14 @@
 
 # **HIRA Friends for the Deaf (HearAssist)**
 
+<p align="center" style="margin-top:">
+  <img src="#" width="400" />
+</p>
+<p align="center" style="margin-top:">
+  <img src="/frontend/public/hira.png" alt="Himalkom Logo" width="200" />
+</p>
 <p align="center">
-  <img src="#" alt="HIRA Logo" width="400" />
+  Welcome to the <b>HIRA Cafe</b> repository!
 </p>
 
 ## **Project Overview**
