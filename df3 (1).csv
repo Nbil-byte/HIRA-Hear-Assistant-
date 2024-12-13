@@ -1,0 +1,921 @@
+Text,expresso atau americano (Hot),expresso atau americano (Ice),cappucino (Hot),cappucino (Ice),Gula Aren(Hot),Gula Aren(Ice),Coffee Latte(Hot),Coffee Latte(Ice),Caramel Macchiato(Hot),Caramel Macchiato(Ice),mochaccino (Hot),mochaccino (Ice)
+saya mau pesan caramel macchiato reguler yang hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+saya mau pesan iced caramel macchiato reguler 1 ya,0,0,0,0,0,0,0,0,0,1,0,0
+mochaccino hot reguler satu ya mba,0,0,0,0,0,0,0,0,0,0,1,0
+saya pesan satu caramel macchiato yang iced ya mas,0,0,0,0,0,0,0,0,0,1,0,0
+umm satu caramel macchiato ice,0,0,0,0,0,0,0,0,0,1,0,0
+aku pesan karamil makiyatu ice satu dong,0,0,0,0,0,0,0,0,0,1,0,0
+mas satu caramel macchiato yang ice ya,0,0,0,0,0,0,0,0,0,1,0,0
+aku mau pesen caramel macchiato hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+satu caramel macchiato ice sama satu mocachino yang ice juga,0,0,0,0,0,0,0,0,0,1,0,1
+mas caramel macchiato satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+1 caramel macchiato yang ice ya mas,0,0,0,0,0,0,0,0,0,1,0,0
+1 hot mocchacino,0,0,0,0,0,0,0,0,0,0,1,0
+2 caramel macchiato yang hot ya mas,0,0,0,0,0,0,0,0,1,0,0,0
+dua hot caramel macchiato,0,0,0,0,0,0,0,0,1,0,0,0
+saya pesan iced mochaccino satu less ice ya,0,0,0,0,0,0,0,0,0,0,0,1
+saya mau iced mochaccino ukuran reguler satu ya mba take away,0,0,0,0,0,0,0,0,0,0,0,1
+aku pesen 1 hot mocacchino ya mba,0,0,0,0,0,0,0,0,0,0,1,0
+mau mocacchino ice satu sama caramel macchiato yang hot,0,0,0,0,0,0,0,0,1,0,0,1
+mau pesen hot caramel macchiato satu trus hot mochaccino satu juga ya mas,0,0,0,0,0,0,0,0,1,0,1,0
+2 hot mochaccino ya mba,0,0,0,0,0,0,0,0,0,0,1,0
+pesen satu caramel macchiato satu ya mas,0,0,0,0,0,0,0,0,1,0,0,0
+mas hot mochaccinonya satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+saya pesan caramel macchiato yang hot satu ya trus caramel macchiato yang ice satu juga,0,0,0,0,0,0,0,0,1,1,0,0
+saya pesan dua hot karamil mocchaciato,0,0,0,0,0,0,0,0,1,0,0,0
+mau pesen hot karamil makiyatu ya mas,0,0,0,0,0,0,0,0,1,0,0,0
+saya pesan satu mocacchino ice,0,0,0,0,0,0,0,0,0,0,0,1
+saya pesan caramel macchiato yang hot satu ya sama satu caramel macchiato yang ice,0,0,0,0,0,0,0,0,1,1,0,0
+mas pesan satu mochaccino yang ice ya,0,0,0,0,0,0,0,0,0,0,0,1
+saya pesan dua mocchacino duaduanya yang hot ya mas,0,0,0,0,0,0,0,0,0,0,1,0
+satu caramel macchiato yang hot ya,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau order mochaccino,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau pesan caramel macchiato yang ice satu,0,0,0,0,0,0,0,0,0,1,0,0
+aku mau 1 caramel macchiato yang iced dan mochaccino yang ice,0,0,0,0,0,0,0,0,0,1,0,1
+mas pesan satu karamil makiyatu yang ice satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+mas pesan satu caramel macchiato ice ya,0,0,0,0,0,0,0,0,0,1,0,0
+boleh caramel macchiato ice satu dong,0,0,0,0,0,0,0,0,0,1,0,0
+saya mau karamel makiyato yang ice satu,0,0,0,0,0,0,0,0,0,1,0,0
+satu caramel macchiato ice tolong,0,0,0,0,0,0,0,0,0,1,0,0
+ice caramel macchiato satu mas,0,0,0,0,0,0,0,0,0,1,0,0
+mas caramel macchiato ice satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+boleh pesan caramel macchiato ice satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+saya pesan satu caramel macchiato ice,0,0,0,0,0,0,0,0,0,1,0,0
+pesan caramel macchiato ice satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+mas pesan satu caramel macchiato hot ya,0,0,0,0,0,0,0,0,1,0,0,0
+hot caramel macchiato satu dong,0,0,0,0,0,0,0,0,1,0,0,0
+saya mau caramel macchiato yang hot satu,0,0,0,0,0,0,0,0,1,0,0,0
+satu caramel macchiato hot tolong,0,0,0,0,0,0,0,0,1,0,0,0
+hot caramel macchiato satu mas,0,0,0,0,0,0,0,0,1,0,0,0
+mas caramel macchiato hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+mau caramel macchiato hot satu dong,0,0,0,0,0,0,0,0,1,0,0,0
+boleh pesan caramel macchiato hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+saya pesan satu caramel macchiato hot,0,0,0,0,0,0,0,0,1,0,0,0
+pesan caramel macchiato hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+mas pesan satu mochaccino ice ya,0,0,0,0,0,0,0,0,0,0,0,1
+boleh mochaccino ice satu dong,0,0,0,0,0,0,0,0,0,0,0,1
+saya mau mochaccino yang ice satu,0,0,0,0,0,0,0,0,0,0,0,1
+satu mochaccino ice tolong,0,0,0,0,0,0,0,0,0,0,0,1
+ice mochaccino satu mas,0,0,0,0,0,0,0,0,0,0,0,1
+mas mochaccino ice satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+mau mochaccino ice satu dong,0,0,0,0,0,0,0,0,0,0,0,1
+boleh pesan mochaccino ice satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+saya pesan satu mochaccino ice,0,0,0,0,0,0,0,0,0,0,0,1
+pesan mochaccino ice satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+mas pesan satu mochaccino hot ya,0,0,0,0,0,0,0,0,0,0,1,0
+hot mokasino satu dong,0,0,0,0,0,0,0,0,0,0,1,0
+saya mau mokasino yang hot satu,0,0,0,0,0,0,0,0,0,0,1,0
+satu mokasino hot tolong,0,0,0,0,0,0,0,0,0,0,1,0
+hot mokasino satu mas,0,0,0,0,0,0,0,0,0,0,1,0
+mas mokasino hot satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+boleh pesan mokasino hot satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+saya pesan satu mokasino hot,0,0,0,0,0,0,0,0,0,0,1,0
+pesan mokasino hot satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+mas pesan satu caramel macchiato ice dan satu mokasino ice ya,0,0,0,0,0,0,0,0,1,0,0,1
+boleh dua satu karamel makiyato ice dan satu mokasino ice,0,0,0,0,0,0,0,0,0,1,0,1
+saya mau pesan satu caramel macchiato ice dan satu mokasino ice,0,0,0,0,0,0,0,0,0,1,0,1
+satu caramel macchiato ice satu mokasino ice tolong,0,0,0,0,0,0,0,0,0,1,0,1
+pesan karamel  makciato ice satu dan mokasino ice satu ya,0,0,0,0,0,0,0,0,0,1,0,1
+mas satu caramel macchiato ice dan satu mokasino ice ya,0,0,0,0,0,0,0,0,0,1,0,1
+mau caramel macchiato ice satu dan mochaccino ice satu,0,0,0,0,0,0,0,0,0,1,0,1
+boleh satu caramel macchiato ice dan satu mochaccino ice dong,0,0,0,0,0,0,0,0,0,1,0,1
+saya pesan caramel macchiato ice dan mochaccino ice satusatu,0,0,0,0,0,0,0,0,0,1,0,1
+pesan satu karamel  makciato ice satu mochaccino ice ya,0,0,0,0,0,0,0,0,0,1,0,1
+mas pesan satu caramel macchiato hot dan satu mochaccino hot ya,0,0,0,0,0,0,0,0,1,0,1,0
+boleh satu caramel macchiato hot dan satu mochaccino hot,0,0,0,0,0,0,0,0,1,0,1,0
+saya pesan satu karamel  makciato hot dan satu mochaccino hot,0,0,0,0,0,0,0,0,1,0,1,0
+satu karamel  makciato hot dan satu mochaccino hot tolong,0,0,0,0,0,0,0,0,1,0,1,0
+pesan karamel  makciato hot satu dan mochaccino hot satu ya,0,0,0,0,0,0,0,0,1,0,1,0
+mas satu karamel  makciato hot dan satu mochaccino hot ya,0,0,0,0,0,0,0,0,1,0,1,0
+mau karamel  makciato hot satu dan mochaccino hot satu,0,0,0,0,0,0,0,0,1,0,1,0
+boleh pesan satu karamel makiyato hot dan satu mochaccino hot dong,0,0,0,0,0,0,0,0,1,0,1,0
+saya pesan caramel macchiato hot dan mochaccino hot satusatu,0,0,0,0,0,0,0,0,1,0,1,0
+pesan satu caramel macchiato hot satu mochaccino hot ya,0,0,0,0,0,0,0,0,1,0,1,0
+aku pesen satu caramel macchiato hot ya mba,0,0,0,0,0,0,0,0,1,0,0,0
+boleh satu caramel macchiato hot mba,0,0,0,0,0,0,0,0,1,0,0,0
+pesan satu caramel macchiato hot tolong mba,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau satu karamel makiyato hot,0,0,0,0,0,0,0,0,1,0,0,0
+satu karamel makiyato hot ya mba,0,0,0,0,0,0,0,0,1,0,0,0
+aku pesen satu karamel makiyato iced ya mba,0,0,0,0,0,0,0,0,0,1,0,0
+boleh satu caramel macchiato iced mba,0,0,0,0,0,0,0,0,0,1,0,0
+pesan satu caramel macchiato iced tolong mba,0,0,0,0,0,0,0,0,0,1,0,0
+aku mau satu caramel macchiato iced,0,0,0,0,0,0,0,0,0,1,0,0
+satu caramel macchiato iced ya mba,0,0,0,0,0,0,0,0,0,1,0,0
+aku pesen satu mochaccino hot ya mba,0,0,0,0,0,0,0,0,0,0,1,0
+boleh satu mochaccino hot mba,0,0,0,0,0,0,0,0,0,0,1,0
+pesan satu mochaccino hot tolong mba,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau satu mochaccino hot,0,0,0,0,0,0,0,0,0,0,1,0
+satu mochaccino hot ya mba,0,0,0,0,0,0,0,0,0,0,1,0
+aku pesen satu mochaccino iced ya mba,0,0,0,0,0,0,0,0,0,0,0,1
+boleh satu mochaccino iced mba,0,0,0,0,0,0,0,0,0,0,0,1
+pesan satu mochaccino iced tolong mba,0,0,0,0,0,0,0,0,0,0,0,1
+aku mau satu mochaccino iced,0,0,0,0,0,0,0,0,0,0,0,1
+satu mochaccino iced ya mba,0,0,0,0,0,0,0,0,0,0,0,1
+karamel makiyato hot reguler satu ya mba,0,0,0,0,0,0,0,0,1,0,0,0
+mba satu karamel makiyato hot reguler ya,0,0,0,0,0,0,0,0,1,0,0,0
+aku pesen satu karamel makiyato yang hot ya mba,0,0,0,0,0,0,0,0,1,0,0,0
+boleh satu caramel macchiato hot reguler mba,0,0,0,0,0,0,0,0,1,0,0,0
+satu caramel macchiato hot reguler aja mba,0,0,0,0,0,0,0,0,1,0,0,0
+mba pesen satu caramel macchiato yang hot,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau satu caramel macchiato hot reguler,0,0,0,0,0,0,0,0,1,0,0,0
+caramel macchiato hot satu aja mba,0,0,0,0,0,0,0,0,1,0,0,0
+tolong satu karamel makiyato yang hot mba,0,0,0,0,0,0,0,0,1,0,0,0
+mba satu karamel makiyato hot reguler,0,0,0,0,0,0,0,0,1,0,0,0
+karamel makiyato ice reguler satu ya mba,0,0,0,0,0,0,0,0,0,1,0,0
+mba satu caramel macchiato iced reguler ya,0,0,0,0,0,0,0,0,0,1,0,0
+aku pesen satu caramel macchiato yang iced ya mba,0,0,0,0,0,0,0,0,0,1,0,0
+boleh satu caramel macchiato iced reguler mba,0,0,0,0,0,0,0,0,0,1,0,0
+satu caramel macchiato ice reguler aja mba,0,0,0,0,0,0,0,0,0,1,0,0
+mba pesen satu caramel macchiato yang ice,0,0,0,0,0,0,0,0,0,1,0,0
+aku mau satu caramel macchiato iced reguler,0,0,0,0,0,0,0,0,0,1,0,0
+karamel makiyato iced satu aja mba,0,0,0,0,0,0,0,0,0,1,0,0
+tolong satu karamil makiyatu yang ice mba,0,0,0,0,0,0,0,0,0,1,0,0
+mba satu caramel macchiato iced reguler,0,0,0,0,0,0,0,0,0,1,0,0
+mokasino hot reguler satu ya mba,0,0,0,0,0,0,0,0,0,0,1,0
+mba satu mokasino hot reguler ya,0,0,0,0,0,0,0,0,0,0,1,0
+aku pesen satu mokasino yang hot ya mba,0,0,0,0,0,0,0,0,0,0,1,0
+boleh satu mokasino hot reguler mba,0,0,0,0,0,0,0,0,0,0,1,0
+satu mokasino hot reguler aja mba,0,0,0,0,0,0,0,0,0,0,1,0
+mba pesen satu mokasino yang hot,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau satu mokasino hot reguler,0,0,0,0,0,0,0,0,0,0,1,0
+mochaccino hot satu aja mba,0,0,0,0,0,0,0,0,0,0,1,0
+tolong satu mochaccino yang hot mba,0,0,0,0,0,0,0,0,0,0,1,0
+mba satu mochaccino hot reguler,0,0,0,0,0,0,0,0,0,0,1,0
+mochaccino ice reguler satu ya mba,0,0,0,0,0,0,0,0,0,0,0,1
+mba satu mochaccino iced reguler ya,0,0,0,0,0,0,0,0,0,0,0,1
+aku pesen satu mochaccino yang iced ya mba,0,0,0,0,0,0,0,0,0,0,0,1
+boleh satu mochaccino iced reguler mba,0,0,0,0,0,0,0,0,0,0,0,1
+satu mochaccino ice reguler aja mba,0,0,0,0,0,0,0,0,0,0,0,1
+mba pesen satu mochaccino yang ice,0,0,0,0,0,0,0,0,0,0,0,1
+aku mau satu mochaccino iced reguler,0,0,0,0,0,0,0,0,0,0,0,1
+mochaccino iced satu aja mba,0,0,0,0,0,0,0,0,0,0,0,1
+tolong satu mochaccino yang ice mba,0,0,0,0,0,0,0,0,0,0,0,1
+mba satu mochaccino iced reguler,0,0,0,0,0,0,0,0,0,0,0,1
+aku pesen satu caramel macchiato hot dan satu mochaccino iced ya mba,0,0,0,0,0,0,0,0,1,0,0,1
+mba boleh satu caramel macchiato iced dan satu mochaccino hot,0,0,0,0,0,0,0,0,0,1,1,0
+aku mau satu caramel macchiato iced sama satu mochaccino hot ya,0,0,0,0,0,0,0,0,0,1,1,0
+tolong satu karamil makiyatu hot dan satu mochaccino iced mba,0,0,0,0,0,0,0,0,1,0,0,1
+pesen dua minuman ya mba satu karamil makiyatu hot dan satu mochaccino iced,0,0,0,0,0,0,0,0,1,0,0,1
+aku mau satu caramel macchiato yang hot,0,0,0,0,0,0,0,0,1,0,0,0
+pesen satu caramel macchiato hot ya,0,0,0,0,0,0,0,0,1,0,0,0
+boleh satu caramel macchiato hot ya,0,0,0,0,0,0,0,0,1,0,0,0
+aku pesan satu caramel macchiato yang hot,0,0,0,0,0,0,0,0,1,0,0,0
+karamil makiyatu hot satu aja tolong,0,0,0,0,0,0,0,0,1,0,0,0
+mas satu karamil makiyatu hot ya,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau pesan satu caramel macchiato yang hot,0,0,0,0,0,0,0,0,1,0,0,0
+tolong satu caramel macchiato hot,0,0,0,0,0,0,0,0,1,0,0,0
+pesan satu caramel macchiato hot ya,0,0,0,0,0,0,0,0,1,0,0,0
+satu caramel macchiato yang hot terima kasih,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau satu caramel macchiato eyes,0,0,0,0,0,0,0,0,0,1,0,0
+pesen satu caramel macchiato eyes ya,0,0,0,0,0,0,0,0,0,1,0,0
+boleh satu karamil makiyatu yang eyes,0,0,0,0,0,0,0,0,0,1,0,0
+aku pesan satu karamil makiyatu eyes,0,0,0,0,0,0,0,0,0,1,0,0
+karamil makiyatu eyes satu aja tolong,0,0,0,0,0,0,0,0,0,1,0,0
+mas satu karamil makiyatu eyes ya,0,0,0,0,0,0,0,0,0,1,0,0
+aku mau pesan satu caramel macchiato eyes,0,0,0,0,0,0,0,0,0,1,0,0
+tolong satu caramel macchiato eyes,0,0,0,0,0,0,0,0,0,1,0,0
+pesan satu karamel makiyato yang eyes,0,0,0,0,0,0,0,0,0,1,0,0
+satu karamel makiyato eyes terima kasih,0,0,0,0,0,0,0,0,0,1,0,0
+pesen satu mochaccino hot ya,0,0,0,0,0,0,0,0,0,0,1,0
+boleh satu mochaccino yang hot,0,0,0,0,0,0,0,0,0,0,1,0
+aku pesan satu mochaccino hot,0,0,0,0,0,0,0,0,0,0,1,0
+mochaccino hot satu aja tolong,0,0,0,0,0,0,0,0,0,0,1,0
+mas satu mochaccino yang hot ya,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau pesan satu mochaccino hot,0,0,0,0,0,0,0,0,0,0,1,0
+tolong satu mochaccino hot,0,0,0,0,0,0,0,0,0,0,1,0
+pesan satu mochaccino hot ya,0,0,0,0,0,0,0,0,0,0,1,0
+satu mochaccino hot terima kasih,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau satu mochaccino eyes,0,0,0,0,0,0,0,0,0,0,0,1
+pesen satu mokasino eyes ya,0,0,0,0,0,0,0,0,0,0,0,1
+boleh satu mokasino yang eyes,0,0,0,0,0,0,0,0,0,0,0,1
+aku pesan satu mokasino eyes,0,0,0,0,0,0,0,0,0,0,0,1
+mochaccino eyes satu aja tolong,0,0,0,0,0,0,0,0,0,0,0,1
+mas satu mochaccino iced ya,0,0,0,0,0,0,0,0,0,0,0,1
+aku mau pesan satu mochaccino ice,0,0,0,0,0,0,0,0,0,0,0,1
+tolong satu mochaccino iced,0,0,0,0,0,0,0,0,0,0,0,1
+pesan satu mochaccino yang ice,0,0,0,0,0,0,0,0,0,0,0,1
+satu mochaccino iced terima kasih,0,0,0,0,0,0,0,0,0,0,0,1
+aku mau satu karamel makiyato iced dan satu mochaccino hot ya,0,0,0,0,0,0,0,0,0,1,1,0
+pesan satu mochaccino hot sama satu mochaccino iced,0,0,0,0,0,0,0,0,0,0,1,1
+boleh satu karamel makiyato iced dan satu karamel makiyato yang hot,0,0,0,0,0,0,0,0,1,1,0,0
+aku mau dua minuman satu caramel macchiato hot dan caramel macchiato iced,0,0,0,0,0,0,0,0,1,1,0,0
+tolong satu mochaccino ice dan satu mochaccino hot,0,0,0,0,0,0,0,0,0,0,1,1
+mba pesen satu mochaccino hot dan satu mochaccino ice ya,0,0,0,0,0,0,0,0,0,0,1,1
+aku mau satu caramel macchiato ice dan satu mochaccino yang ice,0,0,0,0,0,0,0,0,0,1,0,1
+boleh satu caramel macchiato hot terus satu mochaccino hot juga,0,0,0,0,0,0,0,0,1,0,1,0
+tolong satu caramel macchiato hot dan satu mochaccino ice ya,0,0,0,0,0,0,0,0,0,0,1,1
+mas aku pesen satu caramel macchiato iced dan satu mochaccino hot,0,0,0,0,0,0,0,0,1,1,0,0
+pesen caramel macchiato yang hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+aku pesen karamel makiyato hot satu aja,0,0,0,0,0,0,0,0,1,0,0,0
+mas pesen satu karamel makiyato hot ya,0,0,0,0,0,0,0,0,1,0,0,0
+aku pesen satu karamel makiyato yang hot,0,0,0,0,0,0,0,0,1,0,0,0
+pesen karamel makiyato yang hot satu aja,0,0,0,0,0,0,0,0,1,0,0,0
+boleh pesen caramel macchiato hot satu,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau pesen satu caramel macchiato yang hot,0,0,0,0,0,0,0,0,1,0,0,0
+mas satu caramel macchiato hot aja ya,0,0,0,0,0,0,0,0,1,0,0,0
+aku pesen karamel makiyato yang hot satu aja,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau pesen karamel makiyato iced satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+pesen karamel makiyato yang ice satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+aku pesen karamel makiyato iced satu aja,0,0,0,0,0,0,0,0,0,1,0,0
+mas pesen satu karamil makiyatu ice ya,0,0,0,0,0,0,0,0,0,1,0,0
+aku pesen satu karamil makiyatu yang iced,0,0,0,0,0,0,0,0,0,1,0,0
+pesen karamil makiyatu yang ice satu aja,0,0,0,0,0,0,0,0,0,1,0,0
+boleh pesen caramel macchiato iced satu,0,0,0,0,0,0,0,0,0,1,0,0
+aku mau pesen satu caramel macchiato yang iced,0,0,0,0,0,0,0,0,0,1,0,0
+mas satu caramel macchiato iced aja ya,0,0,0,0,0,0,0,0,0,1,0,0
+aku pesen caramel macchiato yang ice satu aja,0,0,0,0,0,0,0,0,0,1,0,0
+aku mau pesen mochaccino hot satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+pesen mochaccino yang hot satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+aku pesen mochaccino hot satu aja,0,0,0,0,0,0,0,0,0,0,1,0
+mas pesen satu mochaccino hot ya,0,0,0,0,0,0,0,0,0,0,1,0
+aku pesen satu mochaccino yang hot,0,0,0,0,0,0,0,0,0,0,1,0
+pesen mochaccino yang hot satu aja,0,0,0,0,0,0,0,0,0,0,1,0
+boleh pesen mochaccino hot satu,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau pesen satu mochaccino yang hot,0,0,0,0,0,0,0,0,0,0,1,0
+mas satu mochaccino hot aja ya,0,0,0,0,0,0,0,0,0,0,1,0
+aku pesen mochaccino yang hot satu aja,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau pesen mochaccino iced satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+pesen mochaccino yang ice satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+aku pesen mochaccino iced satu aja,0,0,0,0,0,0,0,0,0,0,0,1
+mas pesen satu mochaccino ice ya,0,0,0,0,0,0,0,0,0,0,0,1
+aku pesen satu mochaccino yang iced,0,0,0,0,0,0,0,0,0,0,0,1
+boleh pesen mochaccino iced satu,0,0,0,0,0,0,0,0,0,0,0,1
+aku mau pesen satu mochaccino yang iced,0,0,0,0,0,0,0,0,0,0,0,1
+mas satu mochaccino iced aja ya,0,0,0,0,0,0,0,0,0,0,0,1
+aku pesen mochaccino yang ice satu aja,0,0,0,0,0,0,0,0,0,0,0,1
+aku mau pesen caramel macchiato iced satu sama mochaccino hot satu ya,0,0,0,0,0,0,0,0,0,1,1,0
+mba pesen satu caramel macchiato ice sama satu mokasino cie,0,0,0,0,0,0,0,0,0,1,0,1
+pesen satu karamil makiyatu iced dan satu mokasino hot ya,0,0,0,0,0,0,0,0,0,1,1,0
+aku mau pesen dua minuman karamil makiyatu hot satu sama mokasino hot satu,0,0,0,0,0,0,0,0,1,0,1,0
+mas boleh pesen satu caramel macchiato hot sama satu mokasino hot,0,0,0,0,0,0,0,0,1,0,1,0
+aku mau pesen caramel macchiato ice satu dan mochaccino ice satu ya,0,0,0,0,0,0,0,0,0,1,0,1
+pesen satu caramel macchiato ice sama satu caramel macchiato yang hot ya,0,0,0,0,0,0,0,0,1,1,0,0
+mas aku mau pesen mocacino ice satu dan mocacino hot satu,0,0,0,0,0,0,0,0,0,0,1,1
+aku mau pesen mocacino hot satu dan satu mocacino ice ya,0,0,0,0,0,0,0,0,0,0,1,1
+pesen mocacino ice sama mocacino hot satusatu ya mas,0,0,0,0,0,0,0,0,0,0,1,1
+1 caramel macchiato hot sama 1 caramel macchiato yang ice ya mas,0,0,0,0,0,0,0,0,1,0,0,1
+pesen 1 caramel macchiato hot dan 1 caramel macchiato ice ya mas,0,0,0,0,0,0,0,0,1,1,0,0
+mas 1 caramel macchiato dan 1 mocacino duaduanya ice,0,0,0,0,0,0,0,0,0,1,0,1
+mas 1 caramel macchiato dan 1 mocacino duaduanya hot,0,0,0,0,0,0,0,0,1,0,1,0
+1 karamel makiyato sama 1 mocacino hot,0,0,0,0,0,0,0,0,1,0,1,0
+aku mau 1 karamel makiyato ice dan 1 mocacino hot,0,0,0,0,0,0,0,0,0,1,0,1
+mas pesen 1 karamel makiyato ice dan 1 mochaccino ice,0,0,0,0,0,0,0,0,0,1,0,1
+1 karamel makiyato ice dan 1 mochaccino hot,0,0,0,0,0,0,0,0,0,1,1,0
+1 karamel makiyato dan 1 mochaccino duaduanya hot ya mas,0,0,0,0,0,0,0,0,1,0,1,0
+mas tolong 1 caramel macchiato ice sama 1 mochaccino ice,0,0,0,0,0,0,0,0,0,1,0,1
+boleh pesen 1 caramel macchiato dan 1 mochaccino duaduanya ice ya,0,0,0,0,0,0,0,0,1,0,1,0
+1 caramel macchiato sama 1 mochaccino ice semua ya mas,0,0,0,0,0,0,0,0,0,1,0,1
+aku pesen 1 caramel macchiato ice sama 1 mochaccino ice ya mas,0,0,0,0,0,0,0,0,1,0,0,1
+mas pesen 1 caramel macchiato dan 1 mochaccino hot duaduanya ice,0,0,0,0,0,0,0,0,1,0,1,0
+1 caramel macchiato dan 1 mochaccino semua ice ya mas,0,0,0,0,0,0,0,0,0,1,0,1
+mas pesen 1 caramel macchiato sama 1 mochaccino keduanya yang hot ya,0,0,0,0,0,0,0,0,1,0,1,0
+aku mau 1 karamel makiyato ice sama 1 karamel makiyato hot ya mas,0,0,0,0,0,0,0,0,1,1,0,0
+mas boleh mocacino dua satu es satu hot,0,0,0,0,0,0,0,0,0,0,1,1
+mas boleh karamel makiyato dua satu es satu hot,0,0,0,0,0,0,0,0,1,1,0,0
+pesen 1 karamel makiyato sama 1 mocacino ice semua mas,0,0,0,0,0,0,0,0,0,1,0,1
+mas karamel makiyato ice satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+pesen karamel makiyato yang iced satu mas,0,0,0,0,0,0,0,0,0,1,0,0
+mau karamel makiyato ice satu aja,0,0,0,0,0,0,0,0,0,1,0,0
+minta karamel makiyato yang ice satu ya mas,0,0,0,0,0,0,0,0,0,1,0,0
+boleh karamel makiyato iced satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+aku mau karamel makiyato yang ice satu,0,0,0,0,0,0,0,0,0,1,0,0
+pesen caramel macchiato ice satu aja ya,0,0,0,0,0,0,0,0,0,1,0,0
+mas caramel macchiato yang ice satu ya,0,0,0,0,0,0,0,0,0,1,0,0
+caramel macchiato ice satu aja mas,0,0,0,0,0,0,0,0,0,1,0,0
+pesen caramel macchiato hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+mas caramel macchiato yang hot satu,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau caramel macchiato hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+caramel macchiato hot satu aja mas,0,0,0,0,0,0,0,0,1,0,0,0
+pesen caramel macchiato hot satu ya mas,0,0,0,0,0,0,0,0,1,0,0,0
+minta caramel macchiato hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+mau caramel macchiato yang hot satu,0,0,0,0,0,0,0,0,1,0,0,0
+boleh caramel macchiato hot satu mas,0,0,0,0,0,0,0,0,1,0,0,0
+aku mau caramel macchiato yang hot satu ya,0,0,0,0,0,0,0,0,1,0,0,0
+pesen mocacino ice satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+mas mocacino yang ice satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+mochaccino iced satu aja mas,0,0,0,0,0,0,0,0,0,0,0,1
+aku mau mochaccino ice satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+pesen mochaccino yang ice satu aja,0,0,0,0,0,0,0,0,0,0,0,1
+boleh mochaccino iced satu mas,0,0,0,0,0,0,0,0,0,0,0,1
+pesen mochaccino yang ice satu aja ya,0,0,0,0,0,0,0,0,0,0,0,1
+aku mau mochaccino iced satu mas,0,0,0,0,0,0,0,0,0,0,0,1
+minta mochaccino ice satu ya,0,0,0,0,0,0,0,0,0,0,0,1
+pesen mochaccino hot satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau mochaccino hot satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+mochaccino hot satu aja mas,0,0,0,0,0,0,0,0,0,0,1,0
+boleh mochaccino yang hot satu ya mas,0,0,0,0,0,0,0,0,0,0,1,0
+pesen mochaccino hot satu mas,0,0,0,0,0,0,0,0,0,0,1,0
+mas mochaccino hot satu ya,0,0,0,0,0,0,0,0,0,0,1,0
+aku mau mochaccino hot satu ya mas,0,0,0,0,0,0,0,0,0,0,1,0
+mau mochaccino yang hot satu mas,0,0,0,0,0,0,0,0,0,0,1,0
+pesen 1 caramel macchiato ice sama 1 mochaccino hot ya,0,0,0,0,0,0,0,0,0,1,1,0
+mas caramel macchiato iced satu dan mochaccino hot satu,0,0,0,0,0,0,0,0,0,1,1,0
+aku mau caramel macchiato hot satu sama mochaccino ice satu mas,0,0,0,0,0,0,0,0,1,0,0,1
+pesen satu caramel macchiato yang ice sama satu mochaccino yang hot ya,0,0,0,0,0,0,0,0,1,0,0,1
+boleh caramel macchiato hot satu dan mochaccino iced satu ya mas,0,0,0,0,0,0,0,0,0,1,1,0
+mas caramel macchiato ice sama mochaccino hot satu ya,0,0,0,0,0,0,0,0,0,1,1,0
+caramel macchiato hot satu dan mochaccino eyes satu aja ya mas,0,0,0,0,0,0,0,0,0,1,1,0
+aku mau pesen caramel macchiato eyes satu sama mochaccino eyes satu,0,0,0,0,0,0,0,0,0,1,0,1
+mas boleh caramel macchiato eyes satu dan mochaccino eyes satu,0,0,0,0,0,0,0,0,0,1,0,1
+caramel macchiato hot satu sama mochaccino eyes satu ya,0,0,0,0,0,0,0,0,0,1,0,1
+aku pesen caramel macchiato eyes sama mochaccino eyes ya,0,0,0,0,0,0,0,0,1,0,0,1
+mas caramel macchiato eyes dan mochaccino eyes satusatu ya,0,0,0,0,0,0,0,0,1,0,0,1
+boleh pesen caramel macchiato eyes dan mochaccino eyes satu ya mas,0,0,0,0,0,0,0,0,0,1,0,1
+pesen caramel macchiato eyes sama mochaccino eyes ya mas,0,0,0,0,0,0,0,0,0,1,0,1
+mas satu caramel macchiato eyes dan satu mochaccino eyes,0,0,0,0,0,0,0,0,0,1,0,1
+aku mau caramel macchiato eyes dan mochaccino eyes mas,0,0,0,0,0,0,0,0,0,1,0,1
+mas caramel macchiato ice sama mochaccino ice satusatu ya,0,0,0,0,0,0,0,0,0,1,0,1
+pesen caramel macchiato ice dan mochaccino ice aja mas,0,0,0,0,0,0,0,0,0,1,0,1
+mas caramel macchiato ice satu dan mochaccino ice satu ya,0,0,0,0,0,0,0,0,0,1,0,1
+boleh caramel macchiato ice sama mochaccino ice mas,0,0,0,0,0,0,0,0,0,1,0,1
+aku pesen caramel macchiato ice sama mochaccino hot ya,0,0,0,0,0,0,0,0,0,1,0,1
+mas caramel macchiato iced dan mochaccino hot satusatu ya,0,0,0,0,0,0,0,0,0,1,0,1
+boleh pesen caramel macchiato ice dan mochaccino hot satu ya mas,0,0,0,0,0,0,0,0,0,1,1,0
+pesen caramel macchiato ice sama mochaccino hot ya mas,0,0,0,0,0,0,0,0,0,1,1,0
+mas satu caramel macchiato ice dan satu mochaccino hot,0,0,0,0,0,0,0,0,0,1,1,0
+aku mau caramel macchiato ice dan mochaccino hot mas,0,0,0,0,0,0,0,0,0,1,1,0
+mas caramel macchiato ice sama mochaccino hot satusatu ya,0,0,0,0,0,0,0,0,0,1,1,0
+pesen caramel macchiato ice dan mochaccino hot aja mas,0,0,0,0,0,0,0,0,0,1,1,0
+mas caramel macchiato ice satu dan mochaccino hot satu ya,0,0,0,0,0,0,0,0,0,1,1,0
+boleh caramel macchiato ice sama mochaccino hot mas,0,0,0,0,0,0,0,0,0,1,1,0
+aku pesen caramel macchiato hot sama mochaccino ice ya,0,0,0,0,0,0,0,0,0,1,1,0
+mas caramel macchiato hot dan mochaccino iced satusatu ya,0,0,0,0,0,0,0,0,0,1,1,0
+boleh pesen caramel macchiato hot dan mochaccino ice satu ya mas,0,0,0,0,0,0,0,0,1,0,0,1
+pesen caramel macchiato hot sama mochaccino ice ya mas,0,0,0,0,0,0,0,0,1,0,0,1
+mas satu caramel macchiato hot dan satu mochaccino ice,0,0,0,0,0,0,0,0,1,0,0,1
+aku mau caramel macchiato hot dan mochaccino ice mas,0,0,0,0,0,0,0,0,1,0,0,1
+mas caramel macchiato hot sama mochaccino ice satusatu ya,0,0,0,0,0,0,0,0,1,0,0,1
+pesen caramel macchiato hot dan mochaccino ice aja mas,0,0,0,0,0,0,0,0,1,0,0,1
+mas caramel macchiato hot satu dan mochaccino ice satu ya,0,0,0,0,0,0,0,0,1,0,0,1
+boleh caramel macchiato hot sama mochaccino ice mas,0,0,0,0,0,0,0,0,1,0,0,1
+aku pesen caramel macchiato hot sama mochaccino hot ya,0,0,0,0,0,0,0,0,1,0,0,1
+mas caramel macchiato hot dan mochaccino hot satusatu ya,0,0,0,0,0,0,0,0,1,0,0,1
+boleh pesen caramel macchiato hot dan mochaccino hot satu ya mas,0,0,0,0,0,0,0,0,1,0,1,0
+pesen caramel macchiato hot sama mochaccino hot ya mas,0,0,0,0,0,0,0,0,1,0,1,0
+mas satu caramel macchiato hot dan satu mochaccino hot,0,0,0,0,0,0,0,0,1,0,1,0
+aku mau caramel macchiato hot dan mochaccino hot mas,0,0,0,0,0,0,0,0,1,0,1,0
+mas caramel macchiato hot sama mochaccino hot satusatu ya,0,0,0,0,0,0,0,0,1,0,1,0
+pesen caramel macchiato hot dan mochaccino hot aja mas,0,0,0,0,0,0,0,0,1,0,1,0
+mas caramel macchiato hot satu dan mochaccino hot satu ya,0,0,0,0,0,0,0,0,1,0,1,0
+boleh caramel macchiato hot sama mochaccino hot mas,0,0,0,0,0,0,0,0,1,0,1,0
+aku mau pesan satu hot kopi gula aren,0,0,0,0,1,0,0,0,0,0,0,0
+mba pesan dua kopi gula aren yang hot,0,0,0,0,1,0,0,1,0,0,0,0
+mba mau iced coffee latte empat ya,0,0,0,0,0,0,1,0,0,0,0,0
+mba pesan satu coffee latte yang hot,0,0,0,0,0,0,1,0,0,0,0,0
+kak pesan empat hot coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+mas pesan satu coffee latte yang hot,0,0,0,0,0,0,0,1,0,0,0,0
+mas mau iced coffee latte dua ya,0,0,0,0,0,0,0,1,0,0,0,0
+pesan dua coffee latte dan iced,0,0,0,0,0,0,0,1,0,0,0,0
+mba pesan satu kopi gula aren yang eyes,0,0,0,0,0,1,0,1,0,0,0,0
+saya mau pesan lima eyes kopi gula aren,0,0,0,0,0,1,0,1,0,0,0,0
+kak mau eyes coffee latte tiga ya,0,0,0,0,0,0,1,0,0,0,0,0
+aku pesan lima kopi gula aren yang eyes,0,0,0,0,0,1,0,0,0,0,0,0
+mba mau iced kopi gula aren lima ya,0,0,0,0,0,1,0,0,0,0,0,0
+mba mau iced kopi gula aren satu ya,0,0,0,0,0,1,0,1,0,0,0,0
+kak mau hot kopi gula aren lima ya,0,0,0,0,1,0,1,0,0,0,0,0
+kak mau iced kopi gula aren satu ya,0,0,0,0,0,1,0,1,0,0,0,0
+saya mau pesan tiga hot kopi gula aren,0,0,0,0,1,0,0,1,0,0,0,0
+mas mau iced coffee latte satu ya,0,0,0,0,0,0,1,0,0,0,0,0
+pesan satu coffee latte dan hot,0,0,0,0,0,0,0,1,0,0,0,0
+saya mau pesan tiga iced kopi gula aren,0,0,0,0,0,1,0,1,0,0,0,0
+pesan tiga coffee latte dan iced,0,0,0,0,0,0,0,1,0,0,0,0
+saya mau pesan empat hot kopi gula aren,0,0,0,0,1,0,0,0,0,0,0,0
+mba mau hot kopi gula aren empat ya,0,0,0,0,1,0,0,1,0,0,0,0
+mas pesan satu hot kopi gula aren,0,0,0,0,1,0,0,0,0,0,0,0
+mas mau hot kopi gula aren dua ya,0,0,0,0,1,0,0,0,0,0,0,0
+aku pesan lima kopi gula aren yang iced,0,0,0,0,0,1,0,1,0,0,0,0
+aku pesan satu coffee latte yang iced,0,0,0,0,0,0,1,0,0,0,0,0
+aku mau pesan dua hot coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+kak pesan lima coffee latte yang hot,0,0,0,0,0,0,0,1,0,0,0,0
+saya mau pesan lima iced coffee latte,0,0,0,0,0,0,0,1,0,0,0,0
+mas pesan dua iced coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+mas pesan tiga hot coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+mas pesan tiga kopi gula aren yang iced,0,0,0,0,0,1,0,0,0,0,0,0
+mba pesan satu kopi gula aren yang hot,0,0,0,0,1,0,0,0,0,0,0,0
+mba pesan tiga kopi gula areng yang iced,0,0,0,0,0,1,0,1,0,0,0,0
+kak mau iced coffee latte empat ya,0,0,0,0,0,0,1,0,0,0,0,0
+kak pesan tiga hot kopi gula areng,0,0,0,0,1,0,0,0,0,0,0,0
+mba pesan tiga kopi gula areng yang hot,0,0,0,0,1,0,0,1,0,0,0,0
+kak pesan empat iced coffee latte,0,0,0,0,0,0,0,1,0,0,0,0
+aku mau pesan lima hot kopi gula aren,0,0,0,0,1,0,0,1,0,0,0,0
+mba pesan satu iced kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+aku pesan dua kopi gula aren yang hot,0,0,0,0,1,0,1,0,0,0,0,0
+saya mau pesan empat iced kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+mba mau iced kopi gula aren tiga ya,0,0,0,0,0,1,0,0,0,0,0,0
+kak pesan empat kopi gula aren yang iced,0,0,0,0,0,1,0,1,0,0,0,0
+mba pesan tiga hot kopi gula aren,0,0,0,0,1,0,1,0,0,0,0,0
+saya mau pesan tiga hot coffee latte,0,0,0,0,0,0,0,1,0,0,0,0
+mas pesan tiga iced kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+mas pesan empat iced kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+mas pesan satu iced kopi gula aren,0,0,0,0,0,1,0,1,0,0,0,0
+mba pesan dua iced kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+kak pesan lima kopi gula aren yang hot,0,0,0,0,1,0,0,0,0,0,0,0
+mba mau hot kopi gula aren satu ya,0,0,0,0,1,0,0,0,0,0,0,0
+mba pesan empat iced kopi gula aren,0,0,0,0,0,1,0,1,0,0,0,0
+mba pesan satu iced coffee latte,0,0,0,0,0,0,0,1,0,0,0,0
+aku pesan satu kopi gula aren yang hot,0,0,0,0,1,0,0,0,0,0,0,0
+mas pesan lima kopi gula aren yang hot,0,0,0,0,1,0,0,0,0,0,0,0
+aku pesan lima kopi gula aren yang hot,0,0,0,0,1,0,0,1,0,0,0,0
+pesan empat coffee latte dan iced,0,0,0,0,0,0,0,1,0,0,0,0
+kak mau eyes kopi gula aren satu ya,0,0,0,0,0,1,0,0,0,0,0,0
+mas pesan satu kopi gula aren yang eyes,0,0,0,0,0,1,0,0,0,0,0,0
+mba mau hot kopi gula aren dua ya,0,0,0,0,1,0,0,0,0,0,0,0
+kak pesan dua kopi gula aren yang eyes,0,0,0,0,0,1,0,0,0,0,0,0
+aku pesan lima kopi gula areng yang eyes,0,0,0,0,0,1,0,0,0,0,0,0
+mba pesan tiga hot kopi gula areng,0,0,0,0,1,0,1,0,0,0,0,0
+mba pesan satu hot kopi gula areng,0,0,0,0,1,0,0,1,0,0,0,0
+aku mau pesan tiga eyes kopi gula aren,0,0,0,0,0,1,0,1,0,0,0,0
+aku pesan tiga kopi gula aren yang hot,0,0,0,0,1,0,0,1,0,0,0,0
+mba pesan lima iced coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+mas pesan tiga kopi gula aren yang hot,0,0,0,0,1,0,0,1,0,0,0,0
+mba pesan dua coffee latte yang hot,0,0,0,0,0,0,0,1,0,0,0,0
+kak pesan dua coffee latte yang iced,0,0,0,0,0,0,1,0,0,0,0,0
+mba pesan tiga hot coffee latte,0,0,0,0,0,0,0,1,0,0,0,0
+kak pesan satu iced kopi gula aren,0,0,0,0,0,1,0,1,0,0,0,0
+kak mau iced coffee latte tiga ya,0,0,0,0,0,0,1,0,0,0,0,0
+pesan satu kopi gula aren dan iced,0,0,0,0,0,1,0,0,0,0,0,0
+mba pesan empat iced kopi gula areng,0,0,0,0,0,1,0,0,0,0,0,0
+mas mau hot kopi gula areng satu ya,0,0,0,0,1,0,1,0,0,0,0,0
+kak mau hot coffee latte empat ya,0,0,0,0,0,0,0,1,0,0,0,0
+kak mau hot coffee latte lima ya,0,0,0,0,0,0,1,0,0,0,0,0
+saya mau pesan lima hot kopi gula aren,0,0,0,0,1,0,1,0,0,0,0,0
+kak mau hot coffee latte dua ya,0,0,0,0,0,0,1,0,0,0,0,0
+kak mau hot coffee latte tiga ya,0,0,0,0,0,0,1,0,0,0,0,0
+mba pesan empat hot kopi gula aren,0,0,0,0,1,0,1,0,0,0,0,0
+kak mau hot kopi latte dua ya,0,0,0,0,0,0,0,1,0,0,0,0
+mas mau iced kopi gula aren tiga ya,0,0,0,0,0,1,0,0,0,0,0,0
+pesan dua kopi gula aren dan iced,0,0,0,0,0,1,1,0,0,0,0,0
+aku pesan satu kopi latte yang hot,0,0,0,0,0,0,1,0,0,0,0,0
+aku mau pesan tiga hot kopi gula aren,0,0,0,0,1,0,0,1,0,0,0,0
+mba mau hot kopi gula aren tiga ya,0,0,0,0,1,0,0,0,0,0,0,0
+aku mau pesan dua eyes kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+mas pesan lima hot kopi gula aren,0,0,0,0,1,0,0,0,0,0,0,0
+kak pesan dua kopi gula aren yang hot,0,0,0,0,1,0,1,0,0,0,0,0
+mba mau hot kopi latte empat ya,0,0,0,0,0,0,1,0,0,0,0,0
+mba pesan dua eyes kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+mba pesan tiga kopi gula aren yang hot,0,0,0,0,1,0,0,0,0,0,0,0
+mas mau hot kopi gula aren satu ya,0,0,0,0,1,0,0,1,0,0,0,0
+mba mau eyes coffee latte dua ya,0,0,0,0,0,0,0,1,0,0,0,0
+mas mau hot kopi gula aren empat ya,0,0,0,0,1,0,1,0,0,0,0,0
+kak mau eyes kopi gula aren lima ya,0,0,0,0,0,1,1,0,0,0,0,0
+saya mau pesan satu iced kopi latte,0,0,0,0,0,0,0,1,0,0,0,0
+saya mau pesan tiga iced kopi latte,0,0,0,0,0,0,0,1,0,0,0,0
+mas mau iced kopi latte satu ya,0,0,0,0,0,0,0,1,0,0,0,0
+aku pesan empat kopi gula aren yang hot,0,0,0,0,1,0,0,1,0,0,0,0
+pesan satu kopi latte dan iced,0,0,0,0,0,0,0,1,0,0,0,0
+pesan empat kopi gula aren dan iced,0,0,0,0,0,1,1,0,0,0,0,0
+kak pesan satu hot kopi latte,0,0,0,0,0,0,0,1,0,0,0,0
+kak pesan satu iced coffee latte,0,0,0,0,0,0,0,1,0,0,0,0
+aku pesan dua coffee latte yang hot,0,0,0,0,0,0,0,1,0,0,0,0
+pesan tiga kopi gula aren dan hot,0,0,0,0,1,0,0,1,0,0,0,0
+kak mau iced coffee latte lima ya,0,0,0,0,0,0,1,0,0,0,0,0
+mas pesan tiga coffee latte yang hot,0,0,0,0,0,0,0,1,0,0,0,0
+mas pesan satu hot coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+mba pesan satu coffee latte yang iced,0,0,0,0,0,0,1,0,0,0,0,0
+kak pesan lima iced kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+mas pesan lima kopi gula aren yang iced,0,0,0,0,0,1,1,0,0,0,0,0
+kak pesan dua coffee latte yang hot,0,0,0,0,0,0,0,1,0,0,0,0
+kak pesan lima iced coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+mas mau hot kopi gula aren tiga ya,0,0,0,0,1,0,0,0,0,0,0,0
+kak pesan lima hot kopi gula aren,0,0,0,0,1,0,0,1,0,0,0,0
+aku pesan satu kopi gula aren yang eyes,0,0,0,0,0,1,0,0,0,0,0,0
+kak pesan lima kopi gula aren yang eyes,0,0,0,0,0,1,0,0,0,0,0,0
+mba pesan lima kopi gula aren yang hot,0,0,0,0,1,0,0,1,0,0,0,0
+mas pesan dua eyes coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+mba pesan lima coffee latte yang hot,0,0,0,0,0,0,1,0,0,0,0,0
+mas mau hot coffee latte lima ya,0,0,0,0,0,0,0,1,0,0,0,0
+aku pesan dua coffee latte yang iced,0,0,0,0,0,0,1,0,0,0,0,0
+saya mau pesan tiga hot kopi latte,0,0,0,0,0,0,1,0,0,0,0,0
+kak pesan satu kopi gula aren yang iced,0,0,0,0,0,1,0,0,0,0,0,0
+aku mau pesan empat iced kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+kak pesan satu kopi gula aren yang hot,0,0,0,0,1,0,0,0,0,0,0,0
+aku pesan empat kopi gula aren yang iced,0,0,0,0,0,1,1,0,0,0,0,0
+pesan empat kopi latte dan hot,0,0,0,0,0,0,1,0,0,0,0,0
+mba pesan empat hot kopi latte,0,0,0,0,0,0,1,0,0,0,0,0
+kak pesan tiga kopi gula aren yang hot,0,0,0,0,1,0,1,0,0,0,0,0
+saya mau pesan dua iced kopi gula aren,0,0,0,0,0,1,0,1,0,0,0,0
+mba pesan lima coffee latte yang iced,0,0,0,0,0,0,1,0,0,0,0,0
+kak pesan satu hot kopi gula aren,0,0,0,0,1,0,0,0,0,0,0,0
+mba pesan empat kopi gula aren yang hot,0,0,0,0,1,0,0,1,0,0,0,0
+mas mau hot kopi gula aren lima ya,0,0,0,0,1,0,0,1,0,0,0,0
+mba mau iced coffee latte satu ya,0,0,0,0,0,0,1,0,0,0,0,0
+kak pesan empat coffee latte yang hot,0,0,0,0,0,0,0,1,0,0,0,0
+mas mau hot coffee latte satu ya,0,0,0,0,0,0,0,1,0,0,0,0
+pesan empat kopi gula aren dan hot,0,0,0,0,1,0,0,0,0,0,0,0
+mba pesan lima hot kopi gula aren,0,0,0,0,1,0,0,0,0,0,0,0
+pesan lima kopi gula aren dan iced,0,0,0,0,0,1,0,1,0,0,0,0
+mba pesan lima iced kopi gula aren,0,0,0,0,0,1,1,0,0,0,0,0
+kak pesan dua iced kopi gula aren,0,0,0,0,0,1,0,1,0,0,0,0
+kak pesan lima kopi gula aren yang iced,0,0,0,0,0,1,1,0,0,0,0,0
+pesan dua kopi latte dan hot,0,0,0,0,0,0,0,1,0,0,0,0
+pesan empat kopi latte dan iced,0,0,0,0,0,0,0,1,0,0,0,0
+aku pesan satu kopi latte yang iced,0,0,0,0,0,0,0,1,0,0,0,0
+mba pesan empat iced kopi latte,0,0,0,0,0,0,0,1,0,0,0,0
+mba mau eyes kopi gula aren tiga ya,0,0,0,0,0,1,0,0,0,0,0,0
+mba mau eyes kopi gula aren dua ya,0,0,0,0,0,1,0,0,0,0,0,0
+mba mau hot kopi latte tiga ya,0,0,0,0,0,0,1,0,0,0,0,0
+aku pesan tiga kopi gula aren yang eyes,0,0,0,0,0,1,0,0,0,0,0,0
+mas pesan satu eyes kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+pesan lima kopi gula aren dan hot,0,0,0,0,1,0,0,0,0,0,0,0
+mas pesan satu coffee latte yang iced,0,0,0,0,0,0,1,0,0,0,0,0
+mas pesan lima iced kopi gula aren,0,0,0,0,0,1,0,0,0,0,0,0
+aku mau pesan dua hot kopi gula aren,0,0,0,0,1,0,0,1,0,0,0,0
+pesan satu kopi gula aren dan hot,0,0,0,0,1,0,0,0,0,0,0,0
+kak pesan lima hot coffee latte,0,0,0,0,0,0,1,0,0,0,0,0
+aku mau pesan tiga hot kopi latte,0,0,0,0,0,0,0,1,0,0,0,0
+kak mau hot kopi gula aren empat ya,0,0,0,0,1,0,0,0,0,0,0,0
+mba pesan tiga iced kopi gula aren,0,0,0,0,0,1,1,0,0,0,0,0
+aku pesan dua kopi gula aren yang iced,0,0,0,0,0,1,0,1,0,0,0,0
+saya mau pesan lima hot kopi latte,0,0,0,0,0,0,1,0,0,0,0,0
+aku pesan dua kopi latte yang hot,0,0,0,0,0,0,1,0,0,0,0,0
+aku pesen 14 cappuccino hot dan 3 cappuccino ice ya,0,0,1,1,0,0,0,0,0,0,0,0
+mas tolong 9 espresso hot dan 1 espresso ice dan 2 cappuccino ice,1,1,0,1,0,0,0,0,0,0,0,0
+aku pesen 12 espresso hot dan 1 cappuccino hot ya,1,0,1,0,0,0,0,0,0,0,0,0
+aku mau 1 cappuccino ice ya mas,0,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 1 americano hot,1,0,0,0,0,0,0,0,0,0,0,0
+mas aku mau 7 americano hot dan 6 cappuccino ice,1,0,0,1,0,0,0,0,0,0,0,0
+aku mau 5 cappuccino hot ya mas,0,0,1,0,0,0,0,0,0,0,0,0
+mba pesen 6 espresso ice dan 6 cappuccino hot,0,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 3 cappuccino hot,0,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 6 espresso hot dan 9 kapucino hot,1,0,1,0,0,0,0,0,0,0,0,0
+aku mau 2 americano ice dan 9 kapucino hot dan 3 kapucino ice ya mas,0,1,1,1,0,0,0,0,0,0,0,0
+aku pesen 7 americano hot ya,1,0,0,0,0,0,0,0,0,0,0,0
+aku pesen 9 espresso ice dan 5 kapucino ice ya,0,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 4 americano hot,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 4 kapucino ice,0,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 3 espresso hot ya mba,1,0,0,0,0,0,0,0,0,0,0,0
+aku mau 20 americano hot ya mas,1,0,0,0,0,0,0,0,0,0,0,0
+aku pesen 6 americano hot ya,1,0,0,0,0,0,0,0,0,0,0,0
+mas aku mau 7 americano hot dan 9 cappuccino hot,1,0,1,0,0,0,0,0,0,0,0,0
+aku mau 1 americano hot dan 4 americano ice dan 9 cappuccino ice ya mas,1,1,0,1,0,0,0,0,0,0,0,0
+mas aku mau 5 americano hot dan 5 americano ice dan 3 cappuccino ice,1,1,0,1,0,0,0,0,0,0,0,0
+aku mau 3 americano hot dan 4 americano ice ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 9 americano ice ya,0,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 5 cappuccino hot dan 1 cappuccino ice ya,0,0,1,1,0,0,0,0,0,0,0,0
+boleh tolong 7 americano ice ya mba,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 10 cappuccino hot ya mas,0,0,1,0,0,0,0,0,0,0,0,0
+mba pesen 3 cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 5 espresso hot dan 14 cappuccino ice ya mba,1,0,0,1,0,0,0,0,0,0,0,0
+aku mau 2 americano hot dan 3 americano ice dan 6 kapusino hot ya mas,1,1,1,0,0,0,0,0,0,0,0,0
+aku mau 3 kapusino hot ya mas,0,0,1,0,0,0,0,0,0,0,0,0
+aku mau 1 americano ice dan 3 cappuccino hot dan 7 cappuccino ice ya mas,0,1,1,1,0,0,0,0,0,0,0,0
+aku pesen 7 espresso hot dan 1 espresso ice dan 6 cappuccino ice ya,1,1,0,1,0,0,0,0,0,0,0,0
+mas tolong 11 espresso hot dan 3 cappuccino hot,1,0,1,0,0,0,0,0,0,0,0,0
+boleh tolong 17 espresso hot dan 8 espresso ice ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 5 americano hot,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 9 espresso hot dan 11 cappuccino ice,1,0,0,1,0,0,0,0,0,0,0,0
+mas tolong 5 espresso hot dan 3 cappuccino ice,1,0,0,1,0,0,0,0,0,0,0,0
+mas tolong 7 americano ice dan 3 cappuccino hot,0,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 10 americano ice,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 16 espresso ice ya mba,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 3 espresso ice dan 10 cappuccino ice,0,1,0,1,0,0,0,0,0,0,0,0
+mas tolong 2 espresso hot dan 6 cappuccino ice,1,0,0,1,0,0,0,0,0,0,0,0
+aku mau 10 americano hot ya mas,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 2 cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+mas aku mau 7 cappuccino hot dan 5 cappuccino ice,0,0,1,1,0,0,0,0,0,0,0,0
+boleh tolong 13 espresso hot dan 6 cappuccino ice ya mba,1,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 2 espresso hot dan 9 cappuccino ice ya mba,1,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 6 americano hot dan 5 americano ice,1,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 8 americano ice,0,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 5 espresso hot,1,0,0,0,0,0,0,0,0,0,0,0
+aku pesen 5 cappuccino ice ya,0,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 5 espresso hot dan 7 espresso ice,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 3 americano ice,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 2 americano hot dan 12 cappuccino hot ya mas,1,0,1,0,0,0,0,0,0,0,0,0
+boleh tolong 1 americano hot dan 5 americano ice ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 1 americano hot dan 3 americano ice dan 4 cappuccino ice,1,1,0,1,0,0,0,0,0,0,0,0
+aku mau 4 espresso hot dan 9 cappuccino ice ya mas,1,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 4 americano hot dan 1 americano ice ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 2 espresso hot dan 5 espresso ice ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 10 espresso hot dan 3 cappuccino ice,1,0,0,1,0,0,0,0,0,0,0,0
+aku pesen 14 americano hot ya,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 9 espresso hot dan 7 cappuccino ice,1,0,0,1,0,0,0,0,0,0,0,0
+mas aku mau 4 espresso ice dan 7 cappuccino ice,0,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 2 americano ice dan 9 cappuccino ice,0,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 2 americano hot dan 8 kapucino hot,1,0,1,0,0,0,0,0,0,0,0,0
+mba pesen 1 americano hot dan 9 americano ice,1,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 6 espresso hot,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 10 americano hot,1,0,0,0,0,0,0,0,0,0,0,0
+boleh tolong 3 americano ice dan 2 kapucino hot ya mba,0,1,1,0,0,0,0,0,0,0,0,0
+aku pesen 8 americano panas dan 9 americano ice dan 4 kapucino ice ya,1,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 4 americano ice,0,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 3 americano panas dan 15 americano ice,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 5 americano panas dan 1 americano ice,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 7 americano ice ya,0,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 10 americano panas dan 4 cappuccino panas,1,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 2 cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+mba pesen 8 cappuccino panas dan 1 cappuccino ice,0,0,1,1,0,0,0,0,0,0,0,0
+mas aku mau 16 americano panas,1,0,0,0,0,0,0,0,0,0,0,0
+mas aku mau 6 espresso ice dan 5 cappuccino ice,0,1,0,1,0,0,0,0,0,0,0,0
+boleh tolong 8 espresso ice ya mba,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 17 americano ice ya mba,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 6 americano panas dan 3 americano ice,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 7 espresso panas dan 5 espresso ice ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+aku mau 1 espresso ice dan 7 cappuccino ice ya mas,0,1,0,1,0,0,0,0,0,0,0,0
+mas aku mau 9 espresso panas dan 6 cappuccino panas,1,0,1,0,0,0,0,0,0,0,0,0
+mba pesen 5 americano ice,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 7 americano panas dan 5 americano ice ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 4 espresso ice,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 8 americano panas,1,0,0,0,0,0,0,0,0,0,0,0
+aku mau 6 americano ice ya mas,0,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 7 americano ice dan 1 cappuccino ice,0,1,0,1,0,0,0,0,0,0,0,0
+mas aku mau 1 cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+aku mau 7 americano panas dan 9 cappuccino panas ya mas,1,0,1,0,0,0,0,0,0,0,0,0
+mas tolong 8 americano panas dan 12 americano ice,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 5 americano ice dan 2 cappuccino ice,0,1,0,1,0,0,0,0,0,0,0,0
+mas tolong 8 americano panas dan 9 americano ice,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 6 espresso panas dan 5 cappuccino ice ya,1,0,0,1,0,0,0,0,0,0,0,0
+mas aku mau 16 espresso panas,1,0,0,0,0,0,0,0,0,0,0,0
+boleh tolong 15 americano ice dan 10 kapucino ice ya mba,0,1,0,1,0,0,0,0,0,0,0,0
+mas aku mau 12 americano panas,1,0,0,0,0,0,0,0,0,0,0,0
+boleh tolong 1 cappuccino panas ya mba,0,0,1,0,0,0,0,0,0,0,0,0
+mas tolong 7 espresso panas,1,0,0,0,0,0,0,0,0,0,0,0
+aku mau 10 americano ice dan 8 cappuccino panas ya mas,0,1,1,0,0,0,0,0,0,0,0,0
+mas tolong 9 americano ice,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 8 espresso ice dan 7 cappuccino ice ya mba,0,1,0,1,0,0,0,0,0,0,0,0
+aku pesen 1 americano panas ya,1,0,0,0,0,0,0,0,0,0,0,0
+boleh tolong 6 espresso panas dan 2 cappuccino ice ya mba,1,0,0,1,0,0,0,0,0,0,0,0
+aku pesen 10 cappuccino panas dan 4 cappuccino ice ya,0,0,1,1,0,0,0,0,0,0,0,0
+aku mau 3 americano panas dan 9 americano ice dan 9 cappuccino panas ya mas,1,1,1,0,0,0,0,0,0,0,0,0
+mba pesen 6 espresso panas dan 2 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 11 espresso panas,1,0,0,0,0,0,0,0,0,0,0,0
+mas aku mau 5 espresso dingin dan 9 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+mas aku mau 3 espresso panas dan 10 cappuccino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+mas aku mau 7 americano panas dan 7 americano dingin,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 10 cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 4 espresso panas,1,0,0,0,0,0,0,0,0,0,0,0
+aku mau 7 americano dingin ya mas,0,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 5 americano panas dan 9 americano dingin ya,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 3 espresso panas dan 2 espresso dingin dan 9 cappuccino panas ya mba,1,1,1,0,0,0,0,0,0,0,0,0
+mas tolong 4 espresso panas dan 2 cappuccino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+mas tolong 6 cappuccino panas dan 8 cappuccino dingin,0,0,1,1,0,0,0,0,0,0,0,0
+mba pesen 5 americano dingin dan 1 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+mas tolong 5 cappuccino panas dan 9 cappuccino dingin,0,0,1,1,0,0,0,0,0,0,0,0
+aku mau 5 espresso panas dan 3 espresso dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 3 cappuccino dingin ya,0,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 13 americano dingin ya mba,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 12 espresso dingin ya mas,0,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 3 cappuccino panas dan 6 cappuccino dingin ya,0,0,1,1,0,0,0,0,0,0,0,0
+mas tolong 25 espresso panas,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 9 espresso panas,1,0,0,0,0,0,0,0,0,0,0,0
+aku mau 3 americano dingin dan 11 cappuccino panas ya mas,0,1,1,0,0,0,0,0,0,0,0,0
+mba pesen 2 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 7 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 9 americano panas dan 4 americano dingin dan 10 cappuccino panas,1,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 4 espresso panas dan 1 espresso dingin dan 5 kapucino panas,1,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 10 americano panas dan 2 kapucino panas dan 10 kapucino dingin,1,0,1,1,0,0,0,0,0,0,0,0
+boleh tolong 1 espresso dingin ya mba,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 4 americano dingin dan 1 cappuccino panas dan 2 cappuccino dingin ya mba,0,1,1,1,0,0,0,0,0,0,0,0
+aku mau 6 americano panas dan 6 americano dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 1 espresso panas dan 5 espresso dingin dan 5 cappuccino dingin ya,1,1,0,1,0,0,0,0,0,0,0,0
+mas aku mau 14 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 2 espresso panas dan 5 espresso dingin dan 3 cappuccino panas,1,1,1,0,0,0,0,0,0,0,0,0
+aku mau 3 americano panas dan 6 americano dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 5 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 7 cappuccino panas ya mba,0,0,1,0,0,0,0,0,0,0,0,0
+mba pesen 16 espresso panas dan 10 cappuccino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+aku mau 9 cappuccino dingin ya mas,0,0,0,1,0,0,0,0,0,0,0,0
+mas aku mau 7 americano panas dan 20 cappuccino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 6 espresso panas dan 17 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+aku mau 1 americano dingin ya mas,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 6 americano panas dan 5 americano dingin dan 2 cappuccino dingin ya mas,1,1,0,1,0,0,0,0,0,0,0,0
+aku pesen 17 americano dingin dan 4 cappuccino panas ya,0,1,1,0,0,0,0,0,0,0,0,0
+boleh tolong 10 cappuccino dingin ya mba,0,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 7 americano panas dan 2 cappuccino panas,1,0,1,0,0,0,0,0,0,0,0,0
+aku pesen 17 espresso dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 16 espresso panas dan 5 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 8 espresso dingin,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 4 espresso panas dan 6 espresso dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 8 americano dingin dan 1 cappuccino panas ya mba,0,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 9 americano panas,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 9 espresso panas dan 2 cappuccino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+aku mau 6 americano dingin dan 8 cappuccino panas ya mas,0,0,1,0,0,0,0,0,0,0,0,0
+aku mau 4 espresso panas dan 2 espresso dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 12 americano dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 2 cappuccino panas dan 2 cappuccino dingin ya mas,0,0,1,1,0,0,0,0,0,0,0,0
+aku mau 9 americano panas ya mas,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 1 americano panas dan 8 americano dingin,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 12 americano panas dan 5 americano dingin ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 12 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 4 espresso panas dan 4 cappuccino dingin ya mas,1,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 13 americano dingin dan 3 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 8 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 3 espresso panas dan 9 espresso dingin dan 7 cappuccino panas ya mba,1,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 7 americano panas dan 12 americano dingin,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 2 espresso panas dan 5 espresso dingin ya,1,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 6 espresso dingin dan 7 cappuccino panas,0,1,1,0,0,0,0,0,0,0,0,0
+aku pesen 10 espresso dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 16 espresso dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 3 americano panas dan 5 cappuccino panas dan 2 cappuccino dingin,1,0,1,1,0,0,0,0,0,0,0,0
+aku pesen 1 cappuccino panas ya,0,0,1,0,0,0,0,0,0,0,0,0
+mba pesen 9 americano panas dan 9 americano dingin dan 5 cappuccino panas,1,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 12 espresso dingin,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 1 espresso panas dan 7 espresso dingin dan 8 kapucino panas,1,1,1,0,0,0,0,0,0,0,0,0
+mas tolong 3 kapucino panas,0,0,1,0,0,0,0,0,0,0,0,0
+aku mau 8 espresso panas ya mas,1,0,0,0,0,0,0,0,0,0,0,0
+boleh tolong 4 cappuccino panas ya mba,0,0,1,0,0,0,0,0,0,0,0,0
+boleh tolong 4 americano panas dan 8 americano dingin ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 4 espresso dingin ya mba,0,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 5 cappuccino panas ya,0,0,1,0,0,0,0,0,0,0,0,0
+aku mau 4 espresso panas ya mas,1,0,0,0,0,0,0,0,0,0,0,0
+aku mau 7 americano panas dan 3 cappuccino panas ya mas,1,0,1,0,0,0,0,0,0,0,0,0
+mas tolong 7 cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+aku pesen 9 americano panas ya,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 11 americano dingin dan 3 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+aku mau 7 americano panas dan 8 cappuccino panas ya mas,1,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 6 espresso dingin,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 1 espresso dingin dan 8 cappuccino panas,0,1,1,0,0,0,0,0,0,0,0,0
+aku pesen 9 espresso dingin dan 6 cappuccino panas ya,0,1,1,0,0,0,0,0,0,0,0,0
+mba pesen 2 espresso panas dan 8 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 8 americano panas dan 1 americano dingin dan 5 cappuccino dingin,1,1,0,1,0,0,0,0,0,0,0,0
+aku pesen 3 americano dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 3 americano panas dan 7 cappuccino panas dan 7 cappuccino dingin ya mba,1,0,1,1,0,0,0,0,0,0,0,0
+mas tolong 4 americano panas dan 8 cappuccino panas,1,0,1,0,0,0,0,0,0,0,0,0
+boleh tolong 8 espresso panas dan 9 espresso dingin ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 1 cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 10 americano dingin dan 8 cappuccino panas dan 8 cappuccino dingin,0,1,1,1,0,0,0,0,0,0,0,0
+aku pesen 10 espresso panas dan 6 espresso dingin dan 9 cappuccino panas ya,1,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 2 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 21 americano dingin ya mas,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 9 americano panas dan 9 americano dingin dan 2 cappuccino dingin,1,1,0,1,0,0,0,0,0,0,0,0
+boleh tolong 7 americano panas ya mba,1,0,0,0,0,0,0,0,0,0,0,0
+boleh tolong 18 espresso panas ya mba,1,0,0,0,0,0,0,0,0,0,0,0
+aku pesen 4 cappuccino dingin ya,0,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 11 espresso panas dan 3 kapucino dingin ya mba,1,0,0,1,0,0,0,0,0,0,0,0
+mas tolong 2 espresso panas dan 2 espresso dingin dan 2 kapucino panas,1,1,1,0,0,0,0,0,0,0,0,0
+boleh tolong 6 kapucino panas ya mba,0,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 1 americano panas dan 7 cappuccino panas,1,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 6 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 14 espresso panas dan 4 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+aku mau 8 cappuccino dingin ya mas,0,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 15 espresso panas dan 7 espresso dingin ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 2 espresso dingin,0,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 10 americano panas dan 8 americano dingin ya,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 4 americano panas dan 4 americano dingin dan 8 cappuccino panas,1,1,1,0,0,0,0,0,0,0,0,0
+aku pesen 8 cappuccino panas dan 6 cappuccino dingin ya,0,0,1,1,0,0,0,0,0,0,0,0
+mas aku mau 6 cappuccino panas dan 2 cappuccino dingin,0,0,1,1,0,0,0,0,0,0,0,0
+aku pesen 7 espresso panas ya,1,0,0,0,0,0,0,0,0,0,0,0
+boleh tolong 3 espresso panas dan 10 cappuccino panas ya mba,1,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 3 espresso panas,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 8 espresso panas dan 10 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 6 americano panas dan 3 cappuccino dingin ya,1,0,0,1,0,0,0,0,0,0,0,0
+aku mau 7 americano panas dan 5 cappuccino panas ya mas,1,0,1,0,0,0,0,0,0,0,0,0
+aku pesen 7 espresso dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 11 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 5 cappuccino panas dan 16 cappuccino dingin,0,0,1,0,0,0,0,0,0,0,0,0
+mas tolong 5 cappuccino dingin,0,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 8 americano dingin dan 5 cappuccino panas dan 6 cappuccino dingin,0,1,1,1,0,0,0,0,0,0,0,0
+aku mau 3 americano panas ya mas,1,0,0,0,0,0,0,0,0,0,0,0
+mas tolong 6 espresso panas dan 16 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 9 espresso panas dan 7 espresso dingin dan 6 cappuccino dingin ya,1,1,0,1,0,0,0,0,0,0,0,0
+aku mau 4 americano panas dan 6 americano dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 13 cappuccino panas ya,0,0,1,0,0,0,0,0,0,0,0,0
+aku pesen 1 americano panas dan 7 americano dingin dan 2 cappuccino panas ya,1,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 3 espresso dingin dan 1 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 19 americano panas,1,0,0,0,0,0,0,0,0,0,0,0
+mas tolong 10 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 9 americano panas dan 10 cappuccino panas ya mas,1,0,1,0,0,0,0,0,0,0,0,0
+aku mau 9 americano panas dan 5 americano dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 3 americano panas dan 6 kapucino dingin ya,1,0,0,1,0,0,0,0,0,0,0,0
+aku mau 6 espresso dingin ya mas,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 7 espresso panas dan 1 espresso dingin dan 7 kapucino dingin ya mba,1,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 12 americano panas,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 14 espresso dingin,0,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 10 americano panas ya,1,0,0,0,0,0,0,0,0,0,0,0
+boleh tolong 8 americano dingin ya mba,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 2 espresso panas dan 18 espresso dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 8 americano panas dan 6 kapucino panas ya mba,1,0,1,0,0,0,0,0,0,0,0,0
+boleh tolong 16 americano dingin dan 3 kapucino panas ya mba,0,1,1,0,0,0,0,0,0,0,0,0
+mas tolong 4 americano panas dan 10 cappuccino panas,1,0,1,0,0,0,0,0,0,0,0,0
+aku mau 14 espresso panas dan 4 espresso dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 4 espresso panas dan 2 espresso dingin dan 6 cappuccino dingin ya,1,1,0,1,0,0,0,0,0,0,0,0
+mas tolong 2 americano panas dan 10 americano dingin dan 9 cappuccino panas,1,1,1,0,0,0,0,0,0,0,0,0
+mas aku mau 10 americano panas dan 3 americano dingin,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 3 americano dingin dan 9 cappuccino dingin ya,0,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 1 espresso dingin dan 6 cappuccino panas dan 1 cappuccino dingin,0,1,1,1,0,0,0,0,0,0,0,0
+mba pesen 11 americano panas dan 4 americano dingin,1,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 2 americano panas ya,1,0,0,0,0,0,0,0,0,0,0,0
+mba pesen 2 espresso panas dan 8 espresso dingin dan 8 cappuccino panas,1,1,1,0,0,0,0,0,0,0,0,0
+aku pesen 10 americano dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 13 espresso dingin dan 9 cappuccino panas ya mas,0,1,1,0,0,0,0,0,0,0,0,0
+aku mau 7 kapusino panas ya mas,0,0,1,0,0,0,0,0,0,0,0,0
+aku mau 2 espresso panas dan 8 espresso dingin ya mas,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 8 espresso panas dan 7 espresso dingin ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 8 americano panas dan 3 cappuccino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 5 espresso panas ya mba,1,0,0,0,0,0,0,0,0,0,0,0
+mas aku mau 11 cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+mas aku mau 1 espresso panas dan 2 cappuccino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+boleh tolong 10 espresso panas dan 1 espresso dingin ya mba,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 10 espresso panas dan 7 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 9 cappuccino panas ya mba,0,1,1,0,0,0,0,0,0,0,0,0
+aku pesen 5 americano dingin dan 6 cappuccino panas ya,0,1,1,0,0,0,0,0,0,0,0,0
+mas tolong 16 americano dingin,0,1,0,0,0,0,0,0,0,0,0,0
+mas aku mau 6 americano panas,1,0,0,0,0,0,0,0,0,0,0,0
+aku pesen 7 americano panas dan 13 cappuccino dingin ya,1,0,0,1,0,0,0,0,0,0,0,0
+aku mau 10 cappuccino dingin ya mas,0,0,0,1,0,0,0,0,0,0,0,0
+aku pesen 9 espresso panas dan 8 espresso dingin dan 2 cappuccino panas ya,1,1,1,0,0,0,0,0,0,0,0,0
+aku mau 1 cappuccino panas dan 1 cappuccino dingin ya mas,0,0,1,1,0,0,0,0,0,0,0,0
+mba pesen 12 espresso dingin dan 10 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 6 americano panas,1,0,0,0,0,0,0,0,0,0,0,0
+mas aku mau 10 espresso dingin,0,1,0,0,0,0,0,0,0,0,0,0
+aku pesen 11 americano dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+boleh tolong 8 cappuccino panas ya mba,0,0,1,0,0,0,0,0,0,0,0,0
+aku mau 13 cappuccino dingin ya mas,0,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 7 americano dingin dan 3 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+mas tolong 16 espresso dingin dan 5 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+mas tolong 2 americano panas dan 7 americano dingin,1,1,0,0,0,0,0,0,0,0,0,0
+aku mau 8 americano dingin dan 5 cappuccino panas ya mas,0,1,1,0,0,0,0,0,0,0,0,0
+boleh tolong 14 americano panas dan 9 cappuccino panas ya mba,1,0,1,0,0,0,0,0,0,0,0,0
+mba pesen 9 espresso panas dan 8 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 7 americano panas dan 7 cappuccino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+mas aku mau 4 espresso dingin dan 9 cappuccino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+boleh tolong 9 americano dingin dan 1 cappuccino panas dan 5 cappuccino dingin ya mba,0,1,1,1,0,0,0,0,0,0,0,0
+mba pesen 15 kapusino panas dan 10 kapusino dingin,0,0,1,1,0,0,0,0,0,0,0,0
+mas aku mau 4 espresso panas dan 14 espresso dingin,1,1,0,0,0,0,0,0,0,0,0,0
+mas tolong 12 americano panas dan 2 kapusino dingin,1,0,0,1,0,0,0,0,0,0,0,0
+mba pesen 4 espresso dingin,0,1,0,0,0,0,0,0,0,0,0,0
+aku mau 9 espresso panas dan 6 espresso dingin dan 3 kapusino dingin ya mas,1,1,0,1,0,0,0,0,0,0,0,0
+mba pesen 13 espresso dingin dan 1 kapusino dingin,0,1,0,1,0,0,0,0,0,0,0,0
+aku pesen 9 americano panas dan 8 cappuccino panas ya,1,0,1,0,0,0,0,0,0,0,0,0
+aku pesen 6 americano dingin ya,0,1,0,0,0,0,0,0,0,0,0,0
+mba pesen 11 americano panas dan 1 cappuccino panas,1,0,0,0,0,0,0,0,0,0,0,0
+saya pesan satu cappuccino dingin,0,0,0,1,0,0,0,0,0,0,0,0
+boleh satu cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+pesan satu cappuccino dingin ya,0,0,0,1,0,0,0,0,0,0,0,0
+saya ingin cappuccino ice satu,0,0,0,1,0,0,0,0,0,0,0,0
+mohon satu cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+bisa pesankan saya cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+satu cappuccino ice ya,0,0,0,1,0,0,0,0,0,0,0,0
+pesan satu cappuccino ice tolong,0,0,0,1,0,0,0,0,0,0,0,0
+saya mau cappuccino ice satu,0,0,0,1,0,0,0,0,0,0,0,0
+boleh saya pesan cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+pesan cappuccino ice satu ya,0,0,0,1,0,0,0,0,0,0,0,0
+saya pesan cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+cappuccino ice satu ya,0,0,0,1,0,0,0,0,0,0,0,0
+saya ingin pesan satu cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+bisa saya minta cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+tolong satu cappuccino ice,0,0,0,1,0,0,0,0,0,0,0,0
+satu cappuccino ice tolong,0,0,0,1,0,0,0,0,0,0,0,0
+pesan cappuccino ice satu,0,0,0,1,0,0,0,0,0,0,0,0
+tolong cappuccino ice satu,0,0,0,1,0,0,0,0,0,0,0,0
+saya ingin cappuccino ice satu,0,0,0,1,0,0,0,0,0,0,0,0
+saya pesan satu cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+boleh satu cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+pesan satu cappuccino panas ya,0,0,1,0,0,0,0,0,0,0,0,0
+saya ingin cappuccino panas satu,0,0,1,0,0,0,0,0,0,0,0,0
+mohon satu cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+bisa pesankan saya cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+satu cappuccino panas ya,0,0,1,0,0,0,0,0,0,0,0,0
+pesan satu cappuccino panas tolong,0,0,1,0,0,0,0,0,0,0,0,0
+saya mau cappuccino panas satu,0,0,1,0,0,0,0,0,0,0,0,0
+boleh saya pesan cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+pesan cappuccino panas satu ya,0,0,1,0,0,0,0,0,0,0,0,0
+saya pesan cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+cappuccino panas satu ya,0,0,1,0,0,0,0,0,0,0,0,0
+saya ingin pesan satu cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+bisa saya minta cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+tolong satu cappuccino panas,0,0,1,0,0,0,0,0,0,0,0,0
+satu cappuccino panas tolong,0,0,1,0,0,0,0,0,0,0,0,0
+pesan cappuccino panas satu,0,0,1,0,0,0,0,0,0,0,0,0
+tolong cappuccino panas satu,0,0,1,0,0,0,0,0,0,0,0,0
+saya ingin cappuccino panas satu,0,0,1,0,0,0,0,0,0,0,0,0
+satu kopi gula aren dingin tolong,0,0,0,0,0,1,0,0,0,0,0,0
+pesan kopi gula aren ice satu,0,0,0,0,0,1,0,0,0,0,0,0
+bisa satu kopi gula aren ice,0,0,0,0,0,1,0,0,0,0,0,0
+saya pesan kopi gula aren ice,0,0,0,0,0,1,0,0,0,0,0,0
+tolong satu kopi gula aren ice,0,0,0,0,0,1,0,0,0,0,0,0
+saya ingin kopi gula aren ice satu,0,0,0,0,0,1,0,0,0,0,0,0
+kopi gula aren dingin satu ya,0,0,0,0,0,1,0,0,0,0,0,0
+boleh satu kopi gula aren ice,0,0,0,0,0,1,0,0,0,0,0,0
+saya minta kopi gula aren ice satu,0,0,0,0,0,1,0,0,0,0,0,0
+satu kopi gula aren dingin ya,0,0,0,0,0,1,0,0,0,0,0,0
+saya mau kopi gula aren ice satu,0,0,0,0,0,1,0,0,0,0,0,0
+bisa pesan kopi gula aren dingin,0,0,0,0,0,1,0,0,0,0,0,0
+satu kopi gula aren ice ya,0,0,0,0,0,1,0,0,0,0,0,0
+pesan kopi gula aren ice satu ya,0,0,0,0,0,1,0,0,0,0,0,0
+saya ingin kopi gula aren ice,0,0,0,0,0,1,0,0,0,0,0,0
+kopi gula aren ice satu tolong,0,0,0,0,0,1,0,0,0,0,0,0
+tolong pesan kopi gula aren ice,0,0,0,0,0,1,0,0,0,0,0,0
+saya pesan kopi gula aren dingin,0,0,0,0,0,1,0,0,0,0,0,0
+boleh kopi gula aren ice satu,0,0,0,0,0,1,0,0,0,0,0,0
+bisa saya minta kopi gula aren ice,0,0,0,0,0,1,0,0,0,0,0,0
+satu kopi gula aren panas tolong,0,0,0,0,1,0,0,0,0,0,0,0
+pesan kopi gula aren panas satu,0,0,0,0,1,0,0,0,0,0,0,0
+bisa satu kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
+saya pesan kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
+tolong satu kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
+saya ingin kopi gula aren panas satu,0,0,0,0,1,0,0,0,0,0,0,0
+kopi gula aren panas satu ya,0,0,0,0,1,0,0,0,0,0,0,0
+boleh satu kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
+saya minta kopi gula aren panas satu,0,0,0,0,1,0,0,0,0,0,0,0
+satu kopi gula aren panas ya,0,0,0,0,1,0,0,0,0,0,0,0
+saya mau kopi gula aren panas satu,0,0,0,0,1,0,0,0,0,0,0,0
+bisa pesan kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
+satu kopi gula aren panas ya,0,0,0,0,1,0,0,0,0,0,0,0
+pesan kopi gula aren panas satu ya,0,0,0,0,1,0,0,0,0,0,0,0
+saya ingin kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
+kopi gula aren panas satu tolong,0,0,0,0,1,0,0,0,0,0,0,0
+tolong pesan kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
+saya pesan kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
+boleh kopi gula aren panas satu,0,0,0,0,1,0,0,0,0,0,0,0
+bisa saya minta kopi gula aren panas,0,0,0,0,1,0,0,0,0,0,0,0
