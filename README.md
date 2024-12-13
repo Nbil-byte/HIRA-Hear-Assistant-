@@ -102,3 +102,57 @@ HIRA-Cafe/
 │   └── index.js           # Entry point
 │
 └── README.md
+```
+---
+
+## 📌 Getting Started
+### 1. Clone the Repository
+```git
+git clone https://github.com/Nbil-byte/HIRA-Hear-Assistant-
+```
+### 2. Install Frontend Dependencies
+```node
+cd frontend
+npm install
+```
+### 3. Install Backend Depedencies
+```node
+cd backend
+npm install
+```
+### 4. Run The Development Server
+
+```node
+cd frontend
+npm run dev
+```
+```node
+cd backend
+npm run dev
+```
+
+---
+
+## 📄 Deployment Using GCP
+### Frontend using App Engine
+```node
+cd frontend
+npm run build
+gcloud app deploy frontend --source .
+```
+### Backend using Cloud Run
+```node
+cd backend
+gcloud run deploy backend --source .
+```
+### Make sure that you set up:
+1. ENV variables
+2. cloudbuild.yaml
+3. Dockerfile
+
+---
+<h2 align="center">
+   ✨ Happy Coding! ✨  
+</h2>
+
+---
