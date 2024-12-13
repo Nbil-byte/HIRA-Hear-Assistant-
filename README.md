@@ -1,3 +1,16 @@
+# 🚀 **HIRA Cafe POS System**
+<p align="center" style="margin-top:">
+  <img src="#" width="400" />
+</p>
+<p align="center" style="margin-top:">
+  <img src="./hira.png" width="200" />
+</p>
+<p align="center">
+  Welcome to the <b>HIRA Cafe Machine Learning</b> repository!
+</p>
+
+---
+
 Here's a brief for your repository based on the provided information:
 
 ---
