@@ -8,6 +8,8 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm ci --only=production
+ENV DB_PATH=./database.sqlite
+
 
 # Copy application code
 COPY . .

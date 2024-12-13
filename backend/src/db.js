@@ -4,8 +4,15 @@ import { open } from 'sqlite';
 // Export the db variable
 export let db = null;
 
+const DB_PATH = process.env.NODE_ENV === 'production' 
+  ? '/data/database.sqlite'  // Persistent volume mount point
+  : './database.sqlite';
+
 export const initializeDB = async () => {
   try {
+    const dbDir = path.dirname(DB_PATH);
+    await fs.mkdir(dbDir, { recursive: true });
+
     db = await open({
       filename: './database.sqlite',
       driver: sqlite3.Database
