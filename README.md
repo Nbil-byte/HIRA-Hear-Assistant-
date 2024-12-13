@@ -77,6 +77,12 @@ README.md                    # Documentation
 
 ---
 
+## Model Architecture
+<img src="./model.png" width="200" />
+
+## Model Accuracy
+<img src="./model.jpeg" width="200" />
+
 ## ⭐ **Features**
 
 - **Notebook Workflow**: Easily train and export the model in TensorFlow.js format.
