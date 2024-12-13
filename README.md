@@ -90,21 +90,21 @@ This architecture employs a serverless approach, leveraging Google Cloud Run and
 
 ---
 ### **How to Deploy it:**
-1.Gitclone this github
-2.Go to backend and use npm i to install all dependencies
-3.Dont forget to make bucket like the picture of bucket and set it to public
-4.Set the service accounts so the account can use the resource on buckte
-5.after you install it go to terminal and set the file docker then use cloud run deploy
-6.After Deploy it you get the end point of backend
-7.then input it to the model
-8.After that set up like backend but dont forget to install tensordlowjs like teh dependencise
-9.then use gcloud run deploy, but dont forget to make the dockerfile
-10.Then go to frontend and add the  model end-point and backend-end point
-11.Make the yaml.file
-12.Then deploy it with command gcloud appdeploy
+1. Gitclone this github
+2. Go to backend and use npm i to install all dependencies
+3. Dont forget to make bucket like the picture of bucket and set it to public
+4. Set the service accounts so the account can use the resource on buckte
+5. after you install it go to terminal and set the file docker then use cloud run deploy
+6. After Deploy it you get the end point of backend
+7. then input it to the model
+8. After that set up like backend but dont forget to install tensordlowjs like teh dependencise
+9. then use gcloud run deploy, but dont forget to make the dockerfile
+10. Then go to frontend and add the  model end-point and backend-end point
+11. Make the yaml.file
+12. Then deploy it with command gcloud appdeploy
 -- dont forget to use the most near region--
 
 **This is Our Code:**
-https://github.com/BerlinNapoleon/HIRA-Hear-Assistant-/tree/WEB-Branch
+https://github.com/Nbil-byte/HIRA-Hear-Assistant-/tree/WEB-Branch
 HIRA is designed to be a robust, inclusive solution for D/HH employees, leveraging modern cloud technologies to enhance accessibility and independence.
 
