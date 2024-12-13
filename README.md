@@ -6,7 +6,7 @@
   <img src="./hira.png" width="200" />
 </p>
 <p align="center">
-  Welcome to the <b>HIRA Cafe Website</b> repository!
+  Welcome to the <b>HIRA Cafe Cloud</b> repository!
 </p>
 
 ---
