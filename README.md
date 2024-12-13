@@ -1,5 +1,3 @@
-Based on the details from the project brief and your repository branches, here's an updated README that incorporates the project's focus and structure:
-
 ---
 
 # **HIRA Friends for the Deaf (HearAssist)**
