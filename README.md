@@ -6,7 +6,7 @@
   <img src="#" width="400" />
 </p>
 <p align="center" style="margin-top:">
-  <img src="/frontend/public/hira.png" alt="Himalkom Logo" width="200" />
+  <img src="./hira.png" width="200" />
 </p>
 <p align="center">
   Welcome to the <b>HIRA Cafe</b> repository!
