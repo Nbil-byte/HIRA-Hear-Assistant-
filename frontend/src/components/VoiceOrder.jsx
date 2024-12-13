@@ -1,36 +1,46 @@
 // frontend/src/components/VoiceOrder.jsx
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const VoiceOrder = ({ onOrdersProcessed }) => {
   const [isRecording, setIsRecording] = useState(false);
   const [mediaRecorder, setMediaRecorder] = useState(null);
-  const [audioChunks, setAudioChunks] = useState([]);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [recordingTime, setRecordingTime] = useState(0);
+
+  useEffect(() => {
+    let interval;
+    if (isRecording) {
+      interval = setInterval(() => {
+        setRecordingTime(prev => prev + 1);
+      }, 1000);
+    } else {
+      setRecordingTime(0);
+    }
+    return () => clearInterval(interval);
+  }, [isRecording]);
 
   const startRecording = async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const recorder = new MediaRecorder(stream);
+      const recorder = new MediaRecorder(stream, {
+        mimeType: 'audio/webm'
+      });
+      
       const chunks = [];
-
-      recorder.ondataavailable = (e) => {
-        if (e.data.size > 0) {
-          chunks.push(e.data);
-        }
-      };
-
+      recorder.ondataavailable = (e) => chunks.push(e.data);
+      
       recorder.onstop = async () => {
         const audioBlob = new Blob(chunks, { type: 'audio/webm' });
-        await sendAudioToServer(audioBlob);
+        await processVoiceOrder(audioBlob);
       };
 
-      setAudioChunks(chunks);
       setMediaRecorder(recorder);
       recorder.start();
       setIsRecording(true);
     } catch (error) {
-      console.error('Error starting recording:', error);
-      alert('Failed to access microphone. Please check permissions.');
+      console.error('Failed to start recording:', error);
+      alert('Unable to access microphone');
     }
   };
 
@@ -42,50 +52,57 @@ const VoiceOrder = ({ onOrdersProcessed }) => {
     }
   };
 
-  const sendAudioToServer = async (audioBlob) => {
+  const processVoiceOrder = async (audioBlob) => {
     try {
+      setIsProcessing(true);
       const formData = new FormData();
-      formData.append('audio', audioBlob, 'recording.webm');
+      formData.append('audio', audioBlob);
 
-      const response = await axios.post('/api/audio', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        }
+      console.log('Sending audio for processing...');
+      
+      const response = await axios.post('/api/voice-order', formData, {
+        headers: { 'Content-Type': 'multipart/form-data' }
       });
 
-      if (response.data.transcription) {
-        console.log('Transcription:', response.data.transcription);
+      console.log('Server response:', response.data);
+      
+      if (response.data.matchedItems?.length > 0) {
+        console.log('Matched items:', response.data.matchedItems);
+        onOrdersProcessed(response.data.matchedItems);
+      } else {
+        console.log('No items matched in transcription:', response.data.transcription);
+        alert(`No menu items were recognized in: "${response.data.transcription}"`);
       }
-
-      // Pass processed orders to parent
-      onOrdersProcessed([
-        { name: "Espresso", price: 25000, quantity: 2 },
-        { name: "Latte", price: 35000, quantity: 1 }
-      ]);
-
     } catch (error) {
-      console.error('Error processing audio:', error);
-      alert('Failed to process audio. Please try again.');
+      console.error('Error processing voice order:', error);
+      alert('Failed to process voice order: ' + error.message);
+    } finally {
+      setIsProcessing(false);
     }
   };
 
   return (
-    <button 
+    <button
       onClick={isRecording ? stopRecording : startRecording}
+      disabled={isProcessing}
       className={`
-        fixed bottom-8 right-8 flex items-center gap-2 px-6 py-3 rounded-full
-        transition-all duration-300 transform hover:scale-105 shadow-lg
-        ${isRecording 
-          ? 'bg-red-500 hover:bg-red-600 animate-pulse' 
-          : 'bg-[#A27B5C] hover:bg-[#8B6B4F]'
+        fixed bottom-8 right-8 
+        flex items-center gap-2 px-6 py-3 rounded-full
+        transition-all duration-300 transform 
+        ${isProcessing ? 'bg-gray-500 cursor-not-allowed' :
+          isRecording ? 'bg-red-500 hover:bg-red-600 animate-pulse shadow-red-500/50' : 
+                       'bg-[#A27B5C] hover:bg-[#8B6B4F] hover:scale-105'
         }
-        text-white
+        shadow-lg text-white
       `}
     >
       <span className={`text-xl ${isRecording ? 'animate-pulse' : ''}`}>
-        {isRecording ? '⏺' : '🎤'}
+        {isProcessing ? '⏳' : isRecording ? '⏺' : '🎤'}
       </span>
-      {isRecording ? 'Stop Recording' : 'Start Voice Order'}
+      <span>
+        {isProcessing ? 'Processing...' : 
+         isRecording ? `Recording (${recordingTime}s)` : 'Start Voice Order'}
+      </span>
     </button>
   );
 };

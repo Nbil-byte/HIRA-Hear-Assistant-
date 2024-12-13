@@ -1,0 +1,13 @@
+runtime: nodejs18  # Use the appropriate runtime for your app
+entrypoint: serve -s dist  # Command to serve the built frontend (assuming Vite build output is in 'dist')
+
+handlers:
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
+    secure: always
+
+  - url: /(.*)
+    static_files: dist/\1
+    upload: dist/(.*)
+    secure: always

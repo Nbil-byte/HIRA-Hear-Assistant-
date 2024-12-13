@@ -1,97 +1,33 @@
 // backend/src/config/storage.js
 import { Storage } from '@google-cloud/storage';
+import { SpeechClient } from '@google-cloud/speech';
 import dotenv from 'dotenv';
-import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+// Load environment variables
 dotenv.config();
 
-const requiredEnvVars = [
-  'GOOGLE_CLOUD_PROJECT',
-  'GOOGLE_APPLICATION_CREDENTIALS',
-  'STORAGE_BUCKET'
-];
+// Validate bucket name
+if (!process.env.CLOUD_BUCKET_NAME) {
+  throw new Error('CLOUD_BUCKET_NAME environment variable is required');
+}
 
-// Check for required environment variables
-requiredEnvVars.forEach(varName => {
-  if (!process.env[varName]) {
-    throw new Error(`Missing required environment variable: ${varName}`);
-  }
-});
-
-// Initialize storage with explicit credentials
+// Initialize Storage with credentials
 const storage = new Storage({
-  keyFilename: path.resolve(__dirname, '../../serviceaccount.json'),
-  projectId: process.env.GOOGLE_CLOUD_PROJECT
+  keyFilename: process.env.GOOGLE_APPLICATION_CREDENTIALS,
+  projectId: process.env.GOOGLE_PROJECT_ID || 'hira-444406'
 });
 
-const bucketName = process.env.STORAGE_BUCKET;
-const storageBucket = storage.bucket(bucketName);
+const bucket = storage.bucket(process.env.CLOUD_BUCKET_NAME);
 
-const FOLDERS = {
-  UPLOADS: 'uploads',
+// Initialize Speech Client
+const speechClient = new SpeechClient();
+
+// Define folder structure
+export const FOLDERS = {
+  MENU_UPLOADS: 'uploads',
   AUDIO_UPLOADS: 'audio-uploads',
   TRANSCRIBED_TEXT: 'transcribed-audio'
 };
 
-const initializeStorage = async () => {
-  try {
-    // Test authentication
-    await storage.auth.getClient();
-    console.log('Authentication successful');
-
-    // Check bucket exists
-    const [exists] = await storageBucket.exists();
-    if (!exists) {
-      console.log(`Creating bucket ${bucketName}...`);
-      await storage.createBucket(bucketName, {
-        uniformBucketLevelAccess: true,
-        publicAccessPrevention: 'enforced'
-      });
-    }
-
-    // Initialize folders
-    for (const folder of Object.values(FOLDERS)) {
-      const file = storageBucket.file(`${folder}/.keep`);
-      try {
-        await file.save('');
-        console.log(`Initialized folder: ${folder}`);
-      } catch (err) {
-        console.warn(`Failed to initialize folder ${folder}:`, err.message);
-      }
-    }
-
-    console.log('Storage initialization complete');
-    return true;
-  } catch (error) {
-    console.error('Storage initialization failed:', error);
-    throw error;
-  }
-};
-
-const checkPermissions = async () => {
-  try {
-    await storageBucket.iam.test(); // Test bucket permissions
-    console.log('Storage permissions OK');
-  } catch (error) {
-    console.error('Storage permission error:', error);
-  }
-};
-
-// Add bucket initialization verification
-const verifyBucketAccess = async () => {
-  try {
-    const [exists] = await storageBucket.exists();
-    if (!exists) {
-      throw new Error(`Bucket ${bucketName} does not exist`);
-    }
-    console.log('Storage bucket verified:', bucketName);
-  } catch (error) {
-    console.error('Bucket verification failed:', error);
-    throw error;
-  }
-};
-
-// Export the verification function
-export { storage, storageBucket, FOLDERS, initializeStorage, verifyBucketAccess };
+// Single export statement for all config
+export { storage, bucket, speechClient };

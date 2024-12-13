@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import Hira from '../assets/hira.png';
 
 const Sidebar = () => {
   const location = useLocation();
@@ -6,8 +7,8 @@ const Sidebar = () => {
   return (
     <nav className="fixed left-0 top-0 h-screen w-64 bg-[#2C3639] text-white shadow-xl z-50">
       <div className="flex flex-col h-full">
-        <div className="p-6 border-b border-white/10">
-          <h1 className="text-2xl font-bold text-[#DCD7C9]">Coffee Hub</h1>
+        <div className="py-5 border-b border-white/10 flex justify-center items-center">
+          <img src={Hira} alt='Hira Cafe' className="w-20 -translate-x-2" />
         </div>
         <div className="p-4 flex-1 overflow-y-auto">
           {[

@@ -1,7 +1,7 @@
 import express from 'express';
 import multer from 'multer';
 import path from 'path';
-import { storageBucket, FOLDERS } from '../config/storage.js';
+import { FOLDERS, bucket as storageBucket } from '../config/storage.js';
 import { fileURLToPath } from 'url';
 import { promises as fs } from 'fs'; // Use fs promises API
 import { db } from '../db.js';
@@ -48,7 +48,7 @@ router.get('/api/menu', async (req, res) => {
       image_url: item.image_url ? 
         item.image_url.startsWith('http') ? 
           item.image_url : 
-          `https://storage.googleapis.com/${storageBucket.name}/${FOLDERS.UPLOADS}/${path.basename(item.image_url)}`
+          `https://storage.googleapis.com/${storageBucket.name}/${FOLDERS.MENU_UPLOADS}/${path.basename(item.image_url)}`
       : null
     }));
 
@@ -72,35 +72,39 @@ router.post('/api/menu', multerUpload.single('image'), async (req, res) => {
       return res.status(400).json({ error: 'Name and price are required' });
     }
 
+    // Validate file type and size before upload
+    if (req.file && !['image/jpeg', 'image/png', 'image/webp'].includes(req.file.mimetype)) {
+      return res.status(400).json({ error: 'Invalid file type' });
+    }
+
+    // Add file size validation
+    if (req.file && req.file.size > 5 * 1024 * 1024) {
+      return res.status(400).json({ error: 'File too large' });
+    }
+
     let imageUrl = null;
     
     if (req.file) {
+      // Generate unique filename
+      const filename = `menu-${Date.now()}-${Math.random().toString(36).substring(7)}${path.extname(req.file.originalname)}`;
+      const filePath = `${FOLDERS.MENU_UPLOADS}/${filename}`;
+      
       try {
-        // Generate unique filename
-        const filename = `menu-${Date.now()}-${Math.random().toString(36).substring(7)}${path.extname(req.file.originalname)}`;
-        
-        // Reference to GCS file
-        const file = storageBucket.file(`${FOLDERS.UPLOADS}/${filename}`);
-
-        // Upload options with content type
-        const options = {
+        // Upload to GCS
+        const file = storageBucket.file(filePath);
+        await file.save(req.file.buffer, {
           metadata: {
             contentType: req.file.mimetype
           }
-        };
-
-        // Upload file
-        await file.save(req.file.buffer, options);
+        });
         
-        // Generate signed URL or use direct public URL depending on bucket config
-        imageUrl = `https://storage.googleapis.com/${storageBucket.name}/${FOLDERS.UPLOADS}/${filename}`;
-        
-        console.log('Image uploaded successfully:', imageUrl);
+        // Generate public URL
+        imageUrl = `https://storage.googleapis.com/${storageBucket.name}/${filePath}`;
       } catch (uploadError) {
-        console.error('Image upload failed:', uploadError);
-        return res.status(500).json({ 
+        console.error('Upload failed:', uploadError);
+        return res.status(500).json({
           error: 'Failed to upload image',
-          details: process.env.NODE_ENV === 'development' ? uploadError.message : undefined 
+          details: process.env.NODE_ENV === 'development' ? uploadError.message : undefined
         });
       }
     }
@@ -135,27 +139,55 @@ router.put('/api/menu/:id', multerUpload.single('image'), async (req, res) => {
     const { name, price, description, category } = req.body;
     const { id } = req.params;
 
-    let updateFields = { name, price, description, category };
+    // Get existing menu item
+    const existingMenu = await db.get('SELECT * FROM menu WHERE id = ?', [id]);
+    if (!existingMenu) {
+      return res.status(404).json({ error: 'Menu not found' });
+    }
 
+    let imageUrl = existingMenu.image_url;
+
+    // Handle new image upload
     if (req.file) {
-      const filename = `menu-${Date.now()}${path.extname(req.file.originalname || '.jpg')}`;
-      const file = storageBucket.file(`${FOLDERS.UPLOADS}/${filename}`);
+      // Delete old image from cloud storage if exists
+      if (existingMenu.image_url) {
+        const oldImagePath = existingMenu.image_url.split('/').pop();
+        try {
+          await storageBucket.file(`${FOLDERS.MENU_UPLOADS}/${oldImagePath}`).delete();
+        } catch (error) {
+          console.warn('Failed to delete old image:', error);
+        }
+      }
 
+      // Upload new image
+      const filename = `menu-${Date.now()}-${Math.random().toString(36).substring(7)}${path.extname(req.file.originalname)}`;
+      const filePath = `${FOLDERS.MENU_UPLOADS}/${filename}`;
+      const file = storageBucket.file(filePath);
+      
       await file.save(req.file.buffer, {
         metadata: { contentType: req.file.mimetype }
       });
 
-      await file.makePublic();
-      updateFields.image_url = `https://storage.googleapis.com/${storageBucket.name}/${FOLDERS.UPLOADS}/${filename}`;
+      imageUrl = `https://storage.googleapis.com/${storageBucket.name}/${filePath}`;
     }
 
+    // Update menu item
     await db.run(
-      'UPDATE menu SET name=?, price=?, description=?, category=?, image_url=COALESCE(?, image_url) WHERE id=?',
-      [updateFields.name, updateFields.price, updateFields.description, updateFields.category, updateFields.image_url, id]
+      'UPDATE menu SET name=?, price=?, description=?, category=?, image_url=? WHERE id=?',
+      [name, price, description, category, imageUrl, id]
     );
 
-    res.json({ message: 'Updated successfully' });
+    res.json({
+      id,
+      name,
+      price,
+      description,
+      category,
+      image_url: imageUrl
+    });
+
   } catch (error) {
+    console.error('Update failed:', error);
     res.status(500).json({ error: error.message });
   }
 });
@@ -163,30 +195,28 @@ router.put('/api/menu/:id', multerUpload.single('image'), async (req, res) => {
 // Delete menu item
 router.delete('/api/menu/:id', async (req, res) => {
   try {
-    // Get menu data first to get image URL
     const menu = await db.get('SELECT * FROM menu WHERE id = ?', [req.params.id]);
     
     if (!menu) {
       return res.status(404).json({ error: 'Menu not found' });
     }
 
-    // Delete image file if exists
+    // Delete image from cloud storage
     if (menu.image_url) {
-      const imagePath = path.join(process.cwd(), menu.image_url);
+      const imagePath = menu.image_url.split('/').pop();
       try {
-        await fs.access(imagePath); // Check if file exists
-        await fs.unlink(imagePath); // Delete file
-      } catch (err) {
-        console.warn('Image file not found:', imagePath);
+        await storageBucket.file(`${FOLDERS.MENU_UPLOADS}/${imagePath}`).delete();
+      } catch (error) {
+        console.warn('Failed to delete image from storage:', error);
       }
     }
 
     // Delete menu from database
     await db.run('DELETE FROM menu WHERE id = ?', [req.params.id]);
     
-    res.json({ message: 'Menu and image deleted successfully' });
+    res.json({ message: 'Menu deleted successfully' });
   } catch (error) {
-    console.error('Delete error:', error);
+    console.error('Delete failed:', error);
     res.status(500).json({ error: error.message });
   }
 });

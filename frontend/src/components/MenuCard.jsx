@@ -8,9 +8,7 @@ const CategoryIcons = {
 };
 
 const MenuCard = ({ item }) => {
-  const imageUrl = item.image_url ? 
-    `http://localhost:3000${item.image_url}` : 
-    '/default-menu.png';
+  const imageUrl = item.image_url || '/default-menu.png';
 
   return (
     <div className="group relative bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl">
@@ -53,13 +51,6 @@ const MenuCard = ({ item }) => {
         <p className="text-[#3F4E4F]/80 text-sm line-clamp-2 mb-4 min-h-[40px]">
           {item.description}
         </p>
-
-        {/* Order Button - Optional */}
-        <button className="w-full py-2 px-4 bg-[#A27B5C] text-white rounded-lg font-medium 
-                         opacity-0 group-hover:opacity-100 transition-opacity transform 
-                         translate-y-2 group-hover:translate-y-0 hover:bg-[#8B6B4F]">
-          Order Now
-        </button>
       </div>
     </div>
   )

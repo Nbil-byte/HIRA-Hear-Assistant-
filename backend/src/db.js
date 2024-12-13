@@ -1,37 +1,44 @@
-import sqlite3 from 'sqlite3'
-import { open } from 'sqlite'
+import sqlite3 from 'sqlite3';
+import { open } from 'sqlite';
 
-let db = null;
+// Export the db variable
+export let db = null;
 
-const initializeDB = async () => {
-  db = await open({
-    filename: './database.sqlite',
-    driver: sqlite3.Database
-  })
+export const initializeDB = async () => {
+  try {
+    db = await open({
+      filename: './database.sqlite',
+      driver: sqlite3.Database
+    });
 
-  await db.exec(`
-    CREATE TABLE IF NOT EXISTS menu (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      name TEXT NOT NULL,
-      price REAL NOT NULL,
-      description TEXT,
-      image_url TEXT,
-      category TEXT NOT NULL DEFAULT 'coffee'
-    );
-  `)
+    // Add foreign key support
+    await db.run('PRAGMA foreign_keys = ON');
 
-  await db.exec(`
-    CREATE TABLE IF NOT EXISTS orders (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-      total REAL NOT NULL,
-      status TEXT DEFAULT 'completed',
-      note TEXT,
-      items TEXT NOT NULL
-    );
-  `)
+    // Create tables with proper constraints
+    await db.exec(`
+      CREATE TABLE IF NOT EXISTS menu (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT NOT NULL,
+        price REAL NOT NULL CHECK (price >= 0),
+        description TEXT,
+        image_url TEXT,
+        category TEXT NOT NULL DEFAULT 'coffee',
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      );
 
-  return db
-}
+      CREATE TABLE IF NOT EXISTS orders (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        total REAL NOT NULL CHECK (total >= 0),
+        note TEXT,
+        items TEXT NOT NULL,
+        date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      );
+    `);
 
-export { db, initializeDB }
+    return db;
+  } catch (error) {
+    console.error('Database initialization failed:', error);
+    throw error;
+  }
+};

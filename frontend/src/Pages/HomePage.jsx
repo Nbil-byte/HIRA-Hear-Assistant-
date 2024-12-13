@@ -3,17 +3,16 @@ import { useState, useEffect, useRef } from 'react'
 import axios from 'axios'
 import MenuCard from '../components/MenuCard'
 import OrderConfirmation from '../components/OrderConfirmation'
+import VoiceOrder from '../components/VoiceOrder'
 
 const HomePage = () => {
   const [menus, setMenus] = useState([])
   const [isRecording, setIsRecording] = useState(false)
-  const [audioStream, setAudioStream] = useState(null)
-  const [showConfirmation, setShowConfirmation] = useState(false)
-  const [processedOrders, setProcessedOrders] = useState([])
   const [activeCategory, setActiveCategory] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [mediaRecorder, setMediaRecorder] = useState(null);
-  const [audioChunks, setAudioChunks] = useState([]);
+  const [showOrderModal, setShowOrderModal] = useState(false);
+  const [currentOrder, setCurrentOrder] = useState([]);
 
   useEffect(() => {
     fetchMenus()
@@ -24,77 +23,23 @@ const HomePage = () => {
     setMenus(data)
   }
 
-  const startRecording = async () => {
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      const recorder = new MediaRecorder(stream);
-      const chunks = [];
-
-      recorder.ondataavailable = (e) => {
-        if (e.data.size > 0) {
-          chunks.push(e.data);
-        }
-      };
-
-      recorder.onstop = async () => {
-        const audioBlob = new Blob(chunks, { type: 'audio/webm' });
-        await sendAudioToServer(audioBlob);
-      };
-
-      setAudioChunks(chunks);
-      setMediaRecorder(recorder);
-      recorder.start();
-      setIsRecording(true);
-    } catch (error) {
-      console.error('Error starting recording:', error);
-    }
-  };
-
-  const stopRecording = async () => {
-    if (mediaRecorder && mediaRecorder.state !== 'inactive') {
-      mediaRecorder.stop();
-      mediaRecorder.stream.getTracks().forEach(track => track.stop());
-      setIsRecording(false);
-    }
-  };
-
   const sendAudioToServer = async (audioBlob) => {
     try {
-      if (!audioBlob) {
-        throw new Error('No audio data available');
-      }
-
-      console.log('Audio blob size:', audioBlob.size);
-
       const formData = new FormData();
-      formData.append('audio', audioBlob, 'order.webm');
+      formData.append('audio', audioBlob, 'recording.webm');
 
-      const response = await axios.post('/api/audio', formData, {
+      const response = await axios.post('http://localhost:8080/api/audio', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
-        },
-        timeout: 30000,
-        onUploadProgress: (progressEvent) => {
-          const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
-          console.log('Upload progress:', percentCompleted);
         }
       });
 
-      console.log('Upload successful:', response.data);
-      
-      // Process response
-      if (response.data.path) {
-        setProcessedOrders([]); // Clear any previous orders
-        setShowConfirmation(true);
-      }
+      console.log('Audio upload success:', response.data);
+      return response.data;
 
     } catch (error) {
-      console.error('Upload error:', {
-        message: error.message,
-        response: error.response?.data,
-        status: error.response?.status
-      });
-      alert('Failed to upload audio. Please try again.');
+      console.error('Audio processing error:', error.response?.data || error.message);
+      throw error;
     }
   };
 
@@ -104,14 +49,19 @@ const HomePage = () => {
         items,
         note
       });
-      setShowConfirmation(false);
-      setProcessedOrders([]);
+      setShowOrderModal(false);
       // Optional: Show success message
       alert('Order completed successfully!');
     } catch (error) {
       console.error('Error confirming order:', error);
       alert('Error completing order');
     }
+  };
+
+  const handleVoiceOrderProcessed = (items) => {
+    console.log('Voice order items received:', items);
+    setCurrentOrder(items);
+    setShowOrderModal(true);
   };
 
   const categories = [
@@ -134,26 +84,9 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="flex flex-col md:flex-row justify-between items-start gap-6">
             <div>
-              <h1 className="text-4xl font-bold mb-2">Coffee Hub Menu</h1>
+              <h1 className="text-4xl font-bold mb-2">Hira Cafe Menu</h1>
               <p className="text-gray-300">Discover our handcrafted selections</p>
             </div>
-            <button 
-              onClick={isRecording ? stopRecording : startRecording}
-              className={`
-                flex items-center gap-2 px-6 py-3 rounded-full
-                transition-all duration-300 transform hover:scale-105 shadow-lg
-                ${isRecording 
-                  ? 'bg-red-500 hover:bg-red-600 animate-pulse' 
-                  : 'bg-[#A27B5C] hover:bg-[#8B6B4F]'
-                }
-                text-white
-              `}
-            >
-              <span className={`text-xl ${isRecording ? 'animate-pulse' : ''}`}>
-                {isRecording ? '⏺' : '🎤'}
-              </span>
-              {isRecording ? 'Stop Recording' : 'Start Voice Order'}
-            </button>
           </div>
 
           {/* Search & Filters */}
@@ -198,11 +131,12 @@ const HomePage = () => {
         </div>
       </div>
 
+      <VoiceOrder onOrdersProcessed={handleVoiceOrderProcessed} />
+
       <OrderConfirmation
-        orders={processedOrders}
-        menus={menus}  // Pass available menus
-        isOpen={showConfirmation}
-        onClose={() => setShowConfirmation(false)}
+        orders={currentOrder}
+        isOpen={showOrderModal}
+        onClose={() => setShowOrderModal(false)}
         onConfirm={handleConfirmOrder}
       />
     </div>
