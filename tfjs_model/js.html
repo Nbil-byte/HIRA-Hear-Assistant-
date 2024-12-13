@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Prediction Debugger</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .output {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+    #debugInfo {
+      background-color: #f4f4f4;
+      padding: 10px;
+      margin-top: 20px;
+      border: 1px solid #ddd;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Text Prediction Debugger</h1>
+    <p>Enter your text below and click "Predict" to get the results.</p>
+    <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+    <button onclick="predictText()">Predict</button>
+    <button onclick="toggleDebug()">Toggle Debug Info</button>
+    <div id="output" class="output"></div>
+    <div id="debugInfo" style="display:none;"></div>
+  </div>
+  
+  <script>
+    let model;
+    let vocab = {};
+    let debugMode = false;
+    const labels = [
+      "expresso atau americano", "expresso atau americano", "cappucino", 
+      "cappucino", "Gula Aren", "Gula Aren", "Coffee Latte", 
+      "Coffee Latte", "Caramel Macchiato", "Caramel Macchiato", 
+      "mochaccino", "mochaccino"
+    ];
+
+    // Load vocabulary from the JSON file
+    async function loadVocabulary() {
+      try {
+        const response = await fetch('tokenizer_vocab.json');
+        vocab = await response.json();
+        console.log('Vocabulary loaded:', vocab);
+      } catch (error) {
+        console.error('Error loading vocabulary:', error);
+      }
+    }
+
+    // Tokenize input text using the loaded vocabulary
+    function tokenizeAndPad(inputText) {
+      const maxLength = 20;
+
+      const tokens = inputText
+        .toLowerCase()
+        .split(/\s+/)
+        .map(word => {
+          return vocab[word] || 0;  // Map word to its token value, or 0 if not found
+        });
+
+      // Pad with zeros
+      while (tokens.length < maxLength) tokens.push(0);
+      return tokens.slice(0, maxLength);
+    }
+
+    // Toggle debug visibility
+    function toggleDebug() {
+      debugMode = !debugMode;
+      const debugDiv = document.getElementById('debugInfo');
+      debugDiv.style.display = debugMode ? 'block' : 'none';
+
+      if (!debugMode) {
+        debugDiv.textContent = ''; // Clear debug info when hiding
+      }
+    }
+
+    // Load the model on page load
+    async function loadModel() {
+      try {
+        const startTime = performance.now();
+        model = await tf.loadLayersModel('model.json');
+        const endTime = performance.now();
+        console.log(`Model loaded successfully in ${(endTime - startTime).toFixed(2)} ms`);
+      } catch (error) {
+        console.error('Error loading model:', error);
+        alert("There was an issue loading the model. Check the debug info.");
+      }
+    }
+
+    // Predict the text input
+    async function predictText() {
+      if (!model) {
+        console.log("Model not loaded");
+        alert('Model is still loading. Please try again.');
+        return;
+      }
+
+      const inputText = document.getElementById('inputText').value;
+      if (!inputText) {
+        alert('Please enter some text.');
+        return;
+      }
+
+      try {
+        const inputTokens = tokenizeAndPad(inputText);
+        const inputTensor = tf.tensor([inputTokens]);
+
+        const prediction = await model.predict(inputTensor).data();
+        
+        const threshold = 0.2;
+        const predictedLabels = labels.filter((label, index) => prediction[index] > threshold);
+
+        const outputDiv = document.getElementById('output');
+        const debugDiv = document.getElementById('debugInfo');
+        const normalizedPrediction = tf.softmax(tf.tensor(prediction)).dataSync();
+        console.log(normalizedPrediction);
+
+        // Display prediction probabilities for each label
+        if (debugMode) {
+          let debugText = 'Prediction Probabilities:\n';
+          prediction.forEach((prob, index) => {
+            debugText += `${labels[index]}: ${prob.toFixed(4)}\n`;
+          });
+          debugDiv.textContent = debugText;
+        }
+
+        // Display labels predicted with the threshold
+        if (predictedLabels.length > 0) {
+          outputDiv.innerHTML = `<strong>Predicted Labels:</strong> ${predictedLabels.join(', ')}`;
+        } else {
+          outputDiv.innerHTML = '<strong>No relevant labels predicted.</strong>';
+        }
+      } catch (error) {
+        console.error('Prediction Error:', error);
+        alert("There was an error during prediction. Check debug info.");
+      }
+    }
+
+    // Initialize
+    loadVocabulary();
+    loadModel();
+  </script>
+</body>
+</html>
